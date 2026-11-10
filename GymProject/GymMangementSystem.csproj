@@ -888,5 +888,8 @@
   <ItemGroup>
     <None Include="Resources\Password 32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ManageSubscpritions.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
