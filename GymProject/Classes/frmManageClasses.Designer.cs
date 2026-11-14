@@ -111,7 +111,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvShowClasses.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvShowClasses.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvShowClasses.Location = new System.Drawing.Point(10, 332);
+            this.dgvShowClasses.Location = new System.Drawing.Point(1, 331);
             this.dgvShowClasses.Margin = new System.Windows.Forms.Padding(2);
             this.dgvShowClasses.Name = "dgvShowClasses";
             this.dgvShowClasses.ReadOnly = true;
@@ -134,7 +134,7 @@
             this.dgvShowClasses.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvShowClasses.RowTemplate.Height = 35;
             this.dgvShowClasses.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvShowClasses.Size = new System.Drawing.Size(1369, 479);
+            this.dgvShowClasses.Size = new System.Drawing.Size(1369, 507);
             this.dgvShowClasses.TabIndex = 87;
             this.dgvShowClasses.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvShowClasses.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
@@ -303,16 +303,16 @@
             this.panel4.Controls.Add(this.pictureBox10);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1370, 46);
+            this.panel4.Size = new System.Drawing.Size(1374, 46);
             this.panel4.TabIndex = 88;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(59, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1, 42);
             this.panel1.TabIndex = 109;
@@ -334,7 +334,7 @@
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.Classes;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(56, 46);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -346,8 +346,8 @@
             this.guna2Separator1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.guna2Separator1.FillThickness = 2;
-            this.guna2Separator1.Location = new System.Drawing.Point(8, 881);
-            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Separator1.Location = new System.Drawing.Point(13, 897);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(202, 12);
             this.guna2Separator1.TabIndex = 105;
@@ -357,7 +357,7 @@
             this.lblRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblRecord.AutoSize = true;
             this.lblRecord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecord.Location = new System.Drawing.Point(148, 850);
+            this.lblRecord.Location = new System.Drawing.Point(120, 868);
             this.lblRecord.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRecord.Name = "lblRecord";
             this.lblRecord.Size = new System.Drawing.Size(49, 25);
@@ -369,7 +369,7 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(5, 849);
+            this.label2.Location = new System.Drawing.Point(8, 865);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 25);
@@ -392,7 +392,7 @@
             "Yes",
             "No"});
             this.cbIsActive.Location = new System.Drawing.Point(318, 284);
-            this.cbIsActive.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbIsActive.Margin = new System.Windows.Forms.Padding(4);
             this.cbIsActive.Name = "cbIsActive";
             this.cbIsActive.Size = new System.Drawing.Size(173, 36);
             this.cbIsActive.StartIndex = 0;
@@ -421,7 +421,7 @@
             "Capacity",
             "Is Active"});
             this.cbValue.Location = new System.Drawing.Point(108, 288);
-            this.cbValue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbValue.Margin = new System.Windows.Forms.Padding(4);
             this.cbValue.Name = "cbValue";
             this.cbValue.Size = new System.Drawing.Size(192, 36);
             this.cbValue.StartIndex = 0;
@@ -453,7 +453,7 @@
             this.txtSearch.ForeColor = System.Drawing.Color.Black;
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearch.Location = new System.Drawing.Point(312, 286);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PlaceholderText = "Search...";
             this.txtSearch.SelectedText = "";
@@ -505,7 +505,7 @@
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageOffset = new System.Drawing.Point(-10, 1);
             this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(1212, 850);
+            this.guna2Button1.Location = new System.Drawing.Point(1216, 1016);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(156, 38);
@@ -531,7 +531,7 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(1225, 1022);
+            this.btnClose.Location = new System.Drawing.Point(1211, 864);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(152, 41);
@@ -557,7 +557,7 @@
             this.btnAddClass.Image = global::GymMangementSystem.Properties.Resources.AddClasses;
             this.btnAddClass.ImageOffset = new System.Drawing.Point(1, 1);
             this.btnAddClass.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnAddClass.Location = new System.Drawing.Point(1271, 284);
+            this.btnAddClass.Location = new System.Drawing.Point(1277, 283);
             this.btnAddClass.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddClass.Name = "btnAddClass";
             this.btnAddClass.Size = new System.Drawing.Size(92, 42);
@@ -570,9 +570,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.ClassDetails;
             this.pictureBox1.Location = new System.Drawing.Point(0, 42);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1379, 251);
+            this.pictureBox1.Size = new System.Drawing.Size(1370, 251);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 106;
             this.pictureBox1.TabStop = false;
@@ -582,7 +582,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1374, 915);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.dtpTime);
@@ -598,10 +598,9 @@
             this.Controls.Add(this.dgvShowClasses);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmManageClasses";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmManageClasses_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvShowClasses)).EndInit();
             this.guna2ContextMenuStrip1.ResumeLayout(false);
