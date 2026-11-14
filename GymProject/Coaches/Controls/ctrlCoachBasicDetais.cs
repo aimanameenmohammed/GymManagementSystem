@@ -51,5 +51,10 @@ namespace GymMangementSystem
             lblSpecialization.Text = CoachInfo.Speciality;
             lblTotalClasses.Text = clsCoaches.SelectTotalClassesForCoach(CoachID).ToString();
         }
+
+        private void guna2GroupBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
