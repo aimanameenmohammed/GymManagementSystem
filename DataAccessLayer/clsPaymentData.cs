@@ -155,14 +155,14 @@ select PaymentID as 'Payment ID',Payments.SubscriptionID as 'Subscription ID',P.
 
                        using(SqlDataReader reader = command.ExecuteReader())
                         {
-                            if(reader.Read())
-                            { 
-                            SubscriptionID = (int)reader["SubscriptionID"];
-                            PaymentAmount =Convert.ToDouble((reader)["PaymentAmount"]);
-                            ActualAmount = Convert.ToDouble((reader)["ActualAmount"]);
-                            TotalRemaining = Convert.ToDouble((reader)["TotalRemaining"]);
+                            if (reader.Read())
+                            {
+                                SubscriptionID = (int)reader["SubscriptionID"];
+                                PaymentAmount = Convert.ToDouble((reader)["PaymentAmount"]);
+                                ActualAmount = Convert.ToDouble((reader)["ActualAmount"]);
+                                TotalRemaining = Convert.ToDouble((reader)["TotalRemaining"]);
                                 PaymentMethod = Convert.ToByte(reader["PaymentMethod"]);
-                            PaymentDate = (DateTime)reader["PaymentDate"];
+                                PaymentDate = (DateTime)reader["PaymentDate"];
                                 CreatedByUserID = (int)reader["CreatedByUserID"];
                                 Status = Convert.ToByte(reader["Status"]);
                                 return true;
@@ -209,9 +209,9 @@ select PaymentID as 'Payment ID',Payments.SubscriptionID as 'Subscription ID',P.
                                 CreatedByUserID = (int)reader["CreatedByUserID"];
                                 Status = Convert.ToByte(reader["Status"]);
 
+                                return true;
                             }
 
-                                return true;
                         }
 
 
@@ -220,6 +220,7 @@ select PaymentID as 'Payment ID',Payments.SubscriptionID as 'Subscription ID',P.
             }
             catch(Exception ex)
             {
+                return false;
             }
             return false;
 

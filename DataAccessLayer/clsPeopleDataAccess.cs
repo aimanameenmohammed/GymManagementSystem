@@ -134,7 +134,11 @@ ref string Email, ref string Address, ref string ImagePath)
                     Birthdate = (DateTime)reader["Birthdate"];
                     Gender = Convert.ToByte(reader["Gender"]);
                     CountryID = (int)reader["CountryID"];
-                    Email = (string)reader["Email"];
+
+                    if (reader["Email"] != DBNull.Value)
+                        Email = (string)reader["Email"];
+                    else
+                        Email = "";
                     PersonID = (int)reader["ID"];
                     Address = (string)reader["Address"];
 

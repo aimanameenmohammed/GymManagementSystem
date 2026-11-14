@@ -82,5 +82,10 @@ namespace GymMangementSystem
             frmShowSubscriptionDetails frm = new frmShowSubscriptionDetails((int)dgvChangedSubscriptions.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
         }
+
+        private void ctrlSubscriptionsHistory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

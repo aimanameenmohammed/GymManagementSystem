@@ -41,7 +41,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnSubscriPtions = new Guna.UI2.WinForms.Guna2Button();
             this.cmsSubscriptions = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -161,7 +160,6 @@
             // guna2Panel1
             // 
             this.guna2Panel1.Controls.Add(this.btnSettings);
-            this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.btnSubscriPtions);
             this.guna2Panel1.Controls.Add(this.btnManageEmployees);
@@ -202,7 +200,7 @@
             this.btnSettings.Image = global::GymMangementSystem.Properties.Resources.SettingsIcon;
             this.btnSettings.ImageOffset = new System.Drawing.Point(-40, 0);
             this.btnSettings.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnSettings.Location = new System.Drawing.Point(9, 971);
+            this.btnSettings.Location = new System.Drawing.Point(9, 910);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(317, 62);
@@ -210,31 +208,6 @@
             this.btnSettings.Text = "Setting";
             this.btnSettings.TextOffset = new System.Drawing.Point(-18, 0);
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 5;
-            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.guna2Button2.Image = global::GymMangementSystem.Properties.Resources.Manage_employees;
-            this.guna2Button2.ImageOffset = new System.Drawing.Point(-18, 0);
-            this.guna2Button2.ImageSize = new System.Drawing.Size(65, 39);
-            this.guna2Button2.Location = new System.Drawing.Point(9, 891);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(317, 76);
-            this.guna2Button2.TabIndex = 17;
-            this.guna2Button2.Text = "Manage Coaches";
-            this.guna2Button2.TextOffset = new System.Drawing.Point(-15, 0);
             // 
             // guna2Button1
             // 
@@ -253,7 +226,7 @@
             this.guna2Button1.Image = global::GymMangementSystem.Properties.Resources.ClassRegesterationWhite;
             this.guna2Button1.ImageOffset = new System.Drawing.Point(-20, 0);
             this.guna2Button1.ImageSize = new System.Drawing.Size(60, 55);
-            this.guna2Button1.Location = new System.Drawing.Point(9, 629);
+            this.guna2Button1.Location = new System.Drawing.Point(9, 643);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(319, 62);
@@ -280,7 +253,7 @@
             this.btnSubscriPtions.Image = global::GymMangementSystem.Properties.Resources.Subscriptions;
             this.btnSubscriPtions.ImageOffset = new System.Drawing.Point(-25, 0);
             this.btnSubscriPtions.ImageSize = new System.Drawing.Size(43, 34);
-            this.btnSubscriPtions.Location = new System.Drawing.Point(9, 443);
+            this.btnSubscriPtions.Location = new System.Drawing.Point(9, 457);
             this.btnSubscriPtions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubscriPtions.Name = "btnSubscriPtions";
             this.btnSubscriPtions.Size = new System.Drawing.Size(319, 62);
@@ -365,7 +338,7 @@
             this.btnManageEmployees.Image = global::GymMangementSystem.Properties.Resources.Manage_employees;
             this.btnManageEmployees.ImageOffset = new System.Drawing.Point(-12, 0);
             this.btnManageEmployees.ImageSize = new System.Drawing.Size(65, 39);
-            this.btnManageEmployees.Location = new System.Drawing.Point(9, 753);
+            this.btnManageEmployees.Location = new System.Drawing.Point(9, 767);
             this.btnManageEmployees.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageEmployees.Name = "btnManageEmployees";
             this.btnManageEmployees.Size = new System.Drawing.Size(317, 62);
@@ -391,7 +364,7 @@
             this.btnMangePayment.Image = global::GymMangementSystem.Properties.Resources.manage_payments;
             this.btnMangePayment.ImageOffset = new System.Drawing.Point(-15, 0);
             this.btnMangePayment.ImageSize = new System.Drawing.Size(55, 39);
-            this.btnMangePayment.Location = new System.Drawing.Point(9, 687);
+            this.btnMangePayment.Location = new System.Drawing.Point(9, 701);
             this.btnMangePayment.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMangePayment.Name = "btnMangePayment";
             this.btnMangePayment.Size = new System.Drawing.Size(317, 62);
@@ -417,7 +390,7 @@
             this.btnManageClasses.Image = global::GymMangementSystem.Properties.Resources.manage_classes;
             this.btnManageClasses.ImageOffset = new System.Drawing.Point(6, 0);
             this.btnManageClasses.ImageSize = new System.Drawing.Size(65, 39);
-            this.btnManageClasses.Location = new System.Drawing.Point(9, 563);
+            this.btnManageClasses.Location = new System.Drawing.Point(9, 577);
             this.btnManageClasses.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageClasses.Name = "btnManageClasses";
             this.btnManageClasses.Size = new System.Drawing.Size(317, 62);
@@ -443,7 +416,7 @@
             this.btnManageTrainers.Image = global::GymMangementSystem.Properties.Resources.manageTrainers;
             this.btnManageTrainers.ImageOffset = new System.Drawing.Point(-19, 0);
             this.btnManageTrainers.ImageSize = new System.Drawing.Size(65, 39);
-            this.btnManageTrainers.Location = new System.Drawing.Point(9, 499);
+            this.btnManageTrainers.Location = new System.Drawing.Point(9, 513);
             this.btnManageTrainers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageTrainers.Name = "btnManageTrainers";
             this.btnManageTrainers.Size = new System.Drawing.Size(319, 62);
@@ -469,7 +442,7 @@
             this.btnManageMember.Image = global::GymMangementSystem.Properties.Resources.manageMembers;
             this.btnManageMember.ImageOffset = new System.Drawing.Point(-14, 0);
             this.btnManageMember.ImageSize = new System.Drawing.Size(73, 42);
-            this.btnManageMember.Location = new System.Drawing.Point(9, 385);
+            this.btnManageMember.Location = new System.Drawing.Point(9, 399);
             this.btnManageMember.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageMember.Name = "btnManageMember";
             this.btnManageMember.Size = new System.Drawing.Size(319, 62);
@@ -495,7 +468,7 @@
             this.btnManageUser.Image = global::GymMangementSystem.Properties.Resources.manageUsers;
             this.btnManageUser.ImageOffset = new System.Drawing.Point(-23, 0);
             this.btnManageUser.ImageSize = new System.Drawing.Size(83, 42);
-            this.btnManageUser.Location = new System.Drawing.Point(9, 323);
+            this.btnManageUser.Location = new System.Drawing.Point(9, 337);
             this.btnManageUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageUser.Name = "btnManageUser";
             this.btnManageUser.Size = new System.Drawing.Size(319, 62);
@@ -521,7 +494,7 @@
             this.btnManagePeople.Image = global::GymMangementSystem.Properties.Resources.managepeople;
             this.btnManagePeople.ImageOffset = new System.Drawing.Point(-21, 0);
             this.btnManagePeople.ImageSize = new System.Drawing.Size(75, 40);
-            this.btnManagePeople.Location = new System.Drawing.Point(9, 265);
+            this.btnManagePeople.Location = new System.Drawing.Point(9, 279);
             this.btnManagePeople.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnManagePeople.Name = "btnManagePeople";
             this.btnManagePeople.Size = new System.Drawing.Size(319, 62);
@@ -548,7 +521,7 @@
             this.btnDashboard.Image = global::GymMangementSystem.Properties.Resources.file_000000009be4824391a90a2907bdb04d;
             this.btnDashboard.ImageOffset = new System.Drawing.Point(-30, 0);
             this.btnDashboard.ImageSize = new System.Drawing.Size(75, 40);
-            this.btnDashboard.Location = new System.Drawing.Point(5, 197);
+            this.btnDashboard.Location = new System.Drawing.Point(5, 211);
             this.btnDashboard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Size = new System.Drawing.Size(321, 62);
@@ -613,7 +586,7 @@
             this.guna2Button3.Image = global::GymMangementSystem.Properties.Resources.EmployeeAttendance;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(-4, 0);
             this.guna2Button3.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2Button3.Location = new System.Drawing.Point(9, 810);
+            this.guna2Button3.Location = new System.Drawing.Point(9, 824);
             this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(317, 82);
@@ -1764,7 +1737,6 @@
         private System.Windows.Forms.ToolStripMenuItem freezeSubscriptionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem changeSubscriptionToolStripMenuItem;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button btnSettings;
         private System.Windows.Forms.ContextMenuStrip cmsSetting;
