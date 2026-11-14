@@ -71,7 +71,7 @@
             this.panel4.Controls.Add(this.pictureBox10);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1712, 46);
             this.panel4.TabIndex = 124;
@@ -80,7 +80,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(59, 4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1, 39);
             this.panel1.TabIndex = 15;
@@ -102,7 +102,7 @@
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.Employees;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(56, 46);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -115,9 +115,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.Employees;
             this.pictureBox1.Location = new System.Drawing.Point(202, 49);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1273, 312);
+            this.pictureBox1.Size = new System.Drawing.Size(1273, 305);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 125;
             this.pictureBox1.TabStop = false;
@@ -152,8 +152,8 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvEmployeesAttendance.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvEmployeesAttendance.GridColor = System.Drawing.Color.Black;
-            this.dgvEmployeesAttendance.Location = new System.Drawing.Point(0, 369);
-            this.dgvEmployeesAttendance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvEmployeesAttendance.Location = new System.Drawing.Point(9, 359);
+            this.dgvEmployeesAttendance.Margin = new System.Windows.Forms.Padding(4);
             this.dgvEmployeesAttendance.Name = "dgvEmployeesAttendance";
             this.dgvEmployeesAttendance.ReadOnly = true;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -166,7 +166,7 @@
             this.dgvEmployeesAttendance.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvEmployeesAttendance.RowHeadersVisible = false;
             this.dgvEmployeesAttendance.RowHeadersWidth = 51;
-            this.dgvEmployeesAttendance.Size = new System.Drawing.Size(1810, 510);
+            this.dgvEmployeesAttendance.Size = new System.Drawing.Size(1698, 506);
             this.dgvEmployeesAttendance.TabIndex = 126;
             this.dgvEmployeesAttendance.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvEmployeesAttendance.ThemeStyle.GridColor = System.Drawing.Color.Black;
@@ -311,7 +311,7 @@
             this.guna2Separator1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.guna2Separator1.FillThickness = 2;
-            this.guna2Separator1.Location = new System.Drawing.Point(9, 925);
+            this.guna2Separator1.Location = new System.Drawing.Point(9, 921);
             this.guna2Separator1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(162, 10);
@@ -322,7 +322,7 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 896);
+            this.label2.Location = new System.Drawing.Point(9, 890);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 25);
@@ -334,7 +334,7 @@
             this.lblRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblRecord.AutoSize = true;
             this.lblRecord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecord.Location = new System.Drawing.Point(126, 899);
+            this.lblRecord.Location = new System.Drawing.Point(126, 892);
             this.lblRecord.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRecord.Name = "lblRecord";
             this.lblRecord.Size = new System.Drawing.Size(49, 25);
@@ -359,7 +359,7 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(1545, 891);
+            this.btnClose.Location = new System.Drawing.Point(1545, 885);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(162, 41);
@@ -432,7 +432,7 @@
             this.txtFiltering.InputType = GymMangementSystem.MyTextBox.TextType.Text;
             this.txtFiltering.IsRequired = false;
             this.txtFiltering.Location = new System.Drawing.Point(338, 318);
-            this.txtFiltering.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtFiltering.Margin = new System.Windows.Forms.Padding(5);
             this.txtFiltering.Name = "txtFiltering";
             this.txtFiltering.PlaceholderText = "Search...";
             this.txtFiltering.SelectedText = "";

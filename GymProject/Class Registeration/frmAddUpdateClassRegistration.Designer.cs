@@ -330,7 +330,7 @@
             this.pnlClassRegistration.Controls.Add(this.lblMemberID);
             this.pnlClassRegistration.CustomBorderColor = System.Drawing.Color.Transparent;
             this.pnlClassRegistration.Enabled = false;
-            this.pnlClassRegistration.Location = new System.Drawing.Point(6, 682);
+            this.pnlClassRegistration.Location = new System.Drawing.Point(6, 684);
             this.pnlClassRegistration.Margin = new System.Windows.Forms.Padding(4);
             this.pnlClassRegistration.Name = "pnlClassRegistration";
             this.pnlClassRegistration.Size = new System.Drawing.Size(926, 133);
