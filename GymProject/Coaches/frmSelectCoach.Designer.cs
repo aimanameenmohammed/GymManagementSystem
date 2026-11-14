@@ -32,9 +32,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.ctrlCoachDetailsWithFiltering1 = new GymMangementSystem.ctrlCoachDetailsWithFiltering();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
+            this.ctrlCoachDetailsWithFiltering1 = new GymMangementSystem.ctrlCoachDetailsWithFiltering();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
@@ -47,16 +47,18 @@
             this.panel4.Controls.Add(this.pictureBox10);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(973, 37);
+            this.panel4.Size = new System.Drawing.Size(1202, 46);
             this.panel4.TabIndex = 90;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(44, 1);
+            this.panel1.Location = new System.Drawing.Point(55, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1, 34);
+            this.panel1.Size = new System.Drawing.Size(1, 42);
             this.panel1.TabIndex = 109;
             // 
             // lblTitle2
@@ -64,9 +66,10 @@
             this.lblTitle2.AutoSize = true;
             this.lblTitle2.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle2.ForeColor = System.Drawing.Color.White;
-            this.lblTitle2.Location = new System.Drawing.Point(46, 5);
+            this.lblTitle2.Location = new System.Drawing.Point(58, 6);
+            this.lblTitle2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle2.Name = "lblTitle2";
-            this.lblTitle2.Size = new System.Drawing.Size(132, 26);
+            this.lblTitle2.Size = new System.Drawing.Size(163, 32);
             this.lblTitle2.TabIndex = 2;
             this.lblTitle2.Text = "Select Coach";
             // 
@@ -75,20 +78,12 @@
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.CoachesWhite;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(42, 37);
+            this.pictureBox10.Size = new System.Drawing.Size(52, 46);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 1;
             this.pictureBox10.TabStop = false;
-            // 
-            // ctrlCoachDetailsWithFiltering1
-            // 
-            this.ctrlCoachDetailsWithFiltering1.BackColor = System.Drawing.Color.White;
-            this.ctrlCoachDetailsWithFiltering1.Location = new System.Drawing.Point(-1, 37);
-            this.ctrlCoachDetailsWithFiltering1.Name = "ctrlCoachDetailsWithFiltering1";
-            this.ctrlCoachDetailsWithFiltering1.Size = new System.Drawing.Size(974, 538);
-            this.ctrlCoachDetailsWithFiltering1.TabIndex = 91;
-            this.ctrlCoachDetailsWithFiltering1.OnCoachSelected += new System.EventHandler<GymMangementSystem.ctrlCoachDetailsWithFiltering.CoachInfoEventArgs>(this.ctrlCoachDetailsWithFiltering1_OnCoachSelected);
             // 
             // btnClose
             // 
@@ -108,10 +103,10 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(730, 575);
+            this.btnClose.Location = new System.Drawing.Point(901, 715);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(117, 30);
+            this.btnClose.Size = new System.Drawing.Size(146, 38);
             this.btnClose.TabIndex = 144;
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -134,26 +129,37 @@
             this.btnSave.Image = global::GymMangementSystem.Properties.Resources.Save_32;
             this.btnSave.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnSave.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSave.Location = new System.Drawing.Point(853, 575);
+            this.btnSave.Location = new System.Drawing.Point(1055, 715);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(109, 30);
+            this.btnSave.Size = new System.Drawing.Size(136, 38);
             this.btnSave.TabIndex = 145;
             this.btnSave.Text = "Save";
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // ctrlCoachDetailsWithFiltering1
+            // 
+            this.ctrlCoachDetailsWithFiltering1.BackColor = System.Drawing.Color.White;
+            this.ctrlCoachDetailsWithFiltering1.Location = new System.Drawing.Point(-1, 46);
+            this.ctrlCoachDetailsWithFiltering1.Margin = new System.Windows.Forms.Padding(5);
+            this.ctrlCoachDetailsWithFiltering1.Name = "ctrlCoachDetailsWithFiltering1";
+            this.ctrlCoachDetailsWithFiltering1.Size = new System.Drawing.Size(1218, 672);
+            this.ctrlCoachDetailsWithFiltering1.TabIndex = 91;
+            this.ctrlCoachDetailsWithFiltering1.OnCoachSelected += new System.EventHandler<GymMangementSystem.ctrlCoachDetailsWithFiltering.CoachInfoEventArgs>(this.ctrlCoachDetailsWithFiltering1_OnCoachSelected);
+            // 
             // frmSelectCoach
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(973, 608);
+            this.ClientSize = new System.Drawing.Size(1202, 760);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.ctrlCoachDetailsWithFiltering1);
             this.Controls.Add(this.panel4);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmSelectCoach";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panel4.ResumeLayout(false);

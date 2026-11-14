@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTitle2 = new System.Windows.Forms.Label();
@@ -66,16 +66,18 @@
             this.panel4.Controls.Add(this.pictureBox10);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1079, 37);
+            this.panel4.Size = new System.Drawing.Size(1349, 46);
             this.panel4.TabIndex = 123;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(47, 3);
+            this.panel1.Location = new System.Drawing.Point(59, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1, 31);
+            this.panel1.Size = new System.Drawing.Size(1, 39);
             this.panel1.TabIndex = 15;
             // 
             // lblTitle2
@@ -83,9 +85,10 @@
             this.lblTitle2.AutoSize = true;
             this.lblTitle2.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle2.ForeColor = System.Drawing.Color.White;
-            this.lblTitle2.Location = new System.Drawing.Point(54, 5);
+            this.lblTitle2.Location = new System.Drawing.Point(68, 6);
+            this.lblTitle2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle2.Name = "lblTitle2";
-            this.lblTitle2.Size = new System.Drawing.Size(218, 26);
+            this.lblTitle2.Size = new System.Drawing.Size(271, 32);
             this.lblTitle2.TabIndex = 2;
             this.lblTitle2.Text = "Coaches Management";
             // 
@@ -94,8 +97,9 @@
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.CoachesWhite;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(45, 37);
+            this.pictureBox10.Size = new System.Drawing.Size(56, 46);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 1;
             this.pictureBox10.TabStop = false;
@@ -105,45 +109,46 @@
             this.dgvCoaches.AllowUserToAddRows = false;
             this.dgvCoaches.AllowUserToDeleteRows = false;
             this.dgvCoaches.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            this.dgvCoaches.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvCoaches.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvCoaches.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCoaches.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCoaches.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvCoaches.ColumnHeadersHeight = 30;
             this.dgvCoaches.ContextMenuStrip = this.guna2ContextMenuStrip1;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCoaches.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCoaches.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvCoaches.GridColor = System.Drawing.Color.Black;
-            this.dgvCoaches.Location = new System.Drawing.Point(4, 274);
+            this.dgvCoaches.Location = new System.Drawing.Point(5, 342);
+            this.dgvCoaches.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvCoaches.Name = "dgvCoaches";
             this.dgvCoaches.ReadOnly = true;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCoaches.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCoaches.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvCoaches.RowHeadersVisible = false;
             this.dgvCoaches.RowHeadersWidth = 51;
-            this.dgvCoaches.Size = new System.Drawing.Size(1071, 282);
+            this.dgvCoaches.Size = new System.Drawing.Size(1339, 352);
             this.dgvCoaches.TabIndex = 124;
             this.dgvCoaches.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvCoaches.ThemeStyle.GridColor = System.Drawing.Color.Black;
@@ -177,14 +182,14 @@
             this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(194, 156);
+            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(225, 156);
             // 
             // CoachDetailsToolStripMenuItem
             // 
             this.CoachDetailsToolStripMenuItem.AutoToolTip = true;
             this.CoachDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.PersonDetails;
             this.CoachDetailsToolStripMenuItem.Name = "CoachDetailsToolStripMenuItem";
-            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(193, 38);
+            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
             this.CoachDetailsToolStripMenuItem.Text = "Coach Details";
             this.CoachDetailsToolStripMenuItem.Click += new System.EventHandler(this.CoachDetailsToolStripMenuItem_Click);
             // 
@@ -192,7 +197,7 @@
             // 
             this.addCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.AddPerson;
             this.addCoachToolStripMenuItem.Name = "addCoachToolStripMenuItem";
-            this.addCoachToolStripMenuItem.Size = new System.Drawing.Size(193, 38);
+            this.addCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
             this.addCoachToolStripMenuItem.Text = "Add Coach";
             this.addCoachToolStripMenuItem.Click += new System.EventHandler(this.addCoachToolStripMenuItem_Click);
             // 
@@ -200,7 +205,7 @@
             // 
             this.updateCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.UpdatePerson;
             this.updateCoachToolStripMenuItem.Name = "updateCoachToolStripMenuItem";
-            this.updateCoachToolStripMenuItem.Size = new System.Drawing.Size(193, 38);
+            this.updateCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
             this.updateCoachToolStripMenuItem.Text = "Update Coach";
             this.updateCoachToolStripMenuItem.Click += new System.EventHandler(this.updateCoachToolStripMenuItem_Click);
             // 
@@ -208,7 +213,7 @@
             // 
             this.deleteCoachToolStripMenuItem1.Image = global::GymMangementSystem.Properties.Resources.Delete;
             this.deleteCoachToolStripMenuItem1.Name = "deleteCoachToolStripMenuItem1";
-            this.deleteCoachToolStripMenuItem1.Size = new System.Drawing.Size(193, 38);
+            this.deleteCoachToolStripMenuItem1.Size = new System.Drawing.Size(224, 38);
             this.deleteCoachToolStripMenuItem1.Text = "Delete Coach";
             this.deleteCoachToolStripMenuItem1.Click += new System.EventHandler(this.deleteCoachToolStripMenuItem1_Click);
             // 
@@ -217,10 +222,10 @@
             this.guna2Separator1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.guna2Separator1.FillThickness = 2;
-            this.guna2Separator1.Location = new System.Drawing.Point(17, 598);
+            this.guna2Separator1.Location = new System.Drawing.Point(21, 748);
             this.guna2Separator1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(130, 8);
+            this.guna2Separator1.Size = new System.Drawing.Size(162, 10);
             this.guna2Separator1.TabIndex = 128;
             // 
             // label2
@@ -228,10 +233,10 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 576);
+            this.label2.Location = new System.Drawing.Point(12, 720);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.Size = new System.Drawing.Size(110, 25);
             this.label2.TabIndex = 127;
             this.label2.Text = "#Records:";
             // 
@@ -240,10 +245,10 @@
             this.lblRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblRecord.AutoSize = true;
             this.lblRecord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecord.Location = new System.Drawing.Point(110, 576);
+            this.lblRecord.Location = new System.Drawing.Point(138, 720);
             this.lblRecord.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRecord.Name = "lblRecord";
-            this.lblRecord.Size = new System.Drawing.Size(38, 20);
+            this.lblRecord.Size = new System.Drawing.Size(49, 25);
             this.lblRecord.TabIndex = 126;
             this.lblRecord.Text = "N/A";
             // 
@@ -262,12 +267,12 @@
             this.txtFiltering.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtFiltering.InputType = GymMangementSystem.MyTextBox.TextType.Text;
             this.txtFiltering.IsRequired = false;
-            this.txtFiltering.Location = new System.Drawing.Point(272, 233);
-            this.txtFiltering.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFiltering.Location = new System.Drawing.Point(340, 291);
+            this.txtFiltering.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtFiltering.Name = "txtFiltering";
             this.txtFiltering.PlaceholderText = "Search...";
             this.txtFiltering.SelectedText = "";
-            this.txtFiltering.Size = new System.Drawing.Size(225, 36);
+            this.txtFiltering.Size = new System.Drawing.Size(281, 45);
             this.txtFiltering.TabIndex = 134;
             this.txtFiltering.Visible = false;
             this.txtFiltering.TextChanged += new System.EventHandler(this.txtFiltering_TextChanged);
@@ -289,10 +294,10 @@
             "Coach ID",
             "Coach Name",
             "Speciality"});
-            this.cmSelectTypeOfFiltering.Location = new System.Drawing.Point(88, 233);
+            this.cmSelectTypeOfFiltering.Location = new System.Drawing.Point(110, 291);
             this.cmSelectTypeOfFiltering.Margin = new System.Windows.Forms.Padding(2);
             this.cmSelectTypeOfFiltering.Name = "cmSelectTypeOfFiltering";
-            this.cmSelectTypeOfFiltering.Size = new System.Drawing.Size(179, 36);
+            this.cmSelectTypeOfFiltering.Size = new System.Drawing.Size(223, 36);
             this.cmSelectTypeOfFiltering.StartIndex = 0;
             this.cmSelectTypeOfFiltering.TabIndex = 133;
             this.cmSelectTypeOfFiltering.SelectedIndexChanged += new System.EventHandler(this.cmSelectTypeOfFiltering_SelectedIndexChanged);
@@ -301,10 +306,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(5, 240);
+            this.label9.Location = new System.Drawing.Point(6, 300);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(75, 18);
+            this.label9.Size = new System.Drawing.Size(91, 22);
             this.label9.TabIndex = 132;
             this.label9.Text = "Filter By:";
             // 
@@ -326,10 +331,10 @@
             this.btnAddNewCoach.Image = global::GymMangementSystem.Properties.Resources.AddUser;
             this.btnAddNewCoach.ImageOffset = new System.Drawing.Point(1, 1);
             this.btnAddNewCoach.ImageSize = new System.Drawing.Size(35, 30);
-            this.btnAddNewCoach.Location = new System.Drawing.Point(1009, 240);
+            this.btnAddNewCoach.Location = new System.Drawing.Point(1261, 300);
             this.btnAddNewCoach.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddNewCoach.Name = "btnAddNewCoach";
-            this.btnAddNewCoach.Size = new System.Drawing.Size(66, 29);
+            this.btnAddNewCoach.Size = new System.Drawing.Size(82, 36);
             this.btnAddNewCoach.TabIndex = 131;
             this.btnAddNewCoach.Click += new System.EventHandler(this.btnAddNewCoach_Click);
             // 
@@ -337,9 +342,10 @@
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.Coach;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 46);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1079, 191);
+            this.pictureBox1.Size = new System.Drawing.Size(1349, 239);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 129;
             this.pictureBox1.TabStop = false;
@@ -362,20 +368,20 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(940, 563);
+            this.btnClose.Location = new System.Drawing.Point(1175, 704);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(130, 33);
+            this.btnClose.Size = new System.Drawing.Size(162, 41);
             this.btnClose.TabIndex = 125;
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmManageCoaches
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1079, 599);
+            this.ClientSize = new System.Drawing.Size(1349, 749);
             this.Controls.Add(this.txtFiltering);
             this.Controls.Add(this.cmSelectTypeOfFiltering);
             this.Controls.Add(this.label9);
@@ -390,8 +396,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmManageCoaches";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmManageCoaches_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
