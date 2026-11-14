@@ -28,20 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTitle2 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.dgvCoaches = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.CoachDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteCoachToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.label2 = new System.Windows.Forms.Label();
             this.lblRecord = new System.Windows.Forms.Label();
@@ -51,11 +46,16 @@
             this.btnAddNewCoach = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
+            this.CoachDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteCoachToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCoaches)).BeginInit();
             this.guna2ContextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -92,60 +92,48 @@
             this.lblTitle2.TabIndex = 2;
             this.lblTitle2.Text = "Coaches Management";
             // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.CoachesWhite;
-            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(56, 46);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 1;
-            this.pictureBox10.TabStop = false;
-            // 
             // dgvCoaches
             // 
             this.dgvCoaches.AllowUserToAddRows = false;
             this.dgvCoaches.AllowUserToDeleteRows = false;
             this.dgvCoaches.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvCoaches.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            this.dgvCoaches.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvCoaches.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCoaches.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCoaches.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvCoaches.ColumnHeadersHeight = 30;
             this.dgvCoaches.ContextMenuStrip = this.guna2ContextMenuStrip1;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCoaches.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCoaches.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvCoaches.GridColor = System.Drawing.Color.Black;
             this.dgvCoaches.Location = new System.Drawing.Point(5, 342);
             this.dgvCoaches.Margin = new System.Windows.Forms.Padding(4);
             this.dgvCoaches.Name = "dgvCoaches";
             this.dgvCoaches.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCoaches.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCoaches.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvCoaches.RowHeadersVisible = false;
             this.dgvCoaches.RowHeadersWidth = 51;
             this.dgvCoaches.Size = new System.Drawing.Size(1339, 352);
@@ -183,39 +171,6 @@
             this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(225, 156);
-            // 
-            // CoachDetailsToolStripMenuItem
-            // 
-            this.CoachDetailsToolStripMenuItem.AutoToolTip = true;
-            this.CoachDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.PersonDetails;
-            this.CoachDetailsToolStripMenuItem.Name = "CoachDetailsToolStripMenuItem";
-            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
-            this.CoachDetailsToolStripMenuItem.Text = "Coach Details";
-            this.CoachDetailsToolStripMenuItem.Click += new System.EventHandler(this.CoachDetailsToolStripMenuItem_Click);
-            // 
-            // addCoachToolStripMenuItem
-            // 
-            this.addCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.AddPerson;
-            this.addCoachToolStripMenuItem.Name = "addCoachToolStripMenuItem";
-            this.addCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
-            this.addCoachToolStripMenuItem.Text = "Add Coach";
-            this.addCoachToolStripMenuItem.Click += new System.EventHandler(this.addCoachToolStripMenuItem_Click);
-            // 
-            // updateCoachToolStripMenuItem
-            // 
-            this.updateCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.UpdatePerson;
-            this.updateCoachToolStripMenuItem.Name = "updateCoachToolStripMenuItem";
-            this.updateCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
-            this.updateCoachToolStripMenuItem.Text = "Update Coach";
-            this.updateCoachToolStripMenuItem.Click += new System.EventHandler(this.updateCoachToolStripMenuItem_Click);
-            // 
-            // deleteCoachToolStripMenuItem1
-            // 
-            this.deleteCoachToolStripMenuItem1.Image = global::GymMangementSystem.Properties.Resources.Delete;
-            this.deleteCoachToolStripMenuItem1.Name = "deleteCoachToolStripMenuItem1";
-            this.deleteCoachToolStripMenuItem1.Size = new System.Drawing.Size(224, 38);
-            this.deleteCoachToolStripMenuItem1.Text = "Delete Coach";
-            this.deleteCoachToolStripMenuItem1.Click += new System.EventHandler(this.deleteCoachToolStripMenuItem1_Click);
             // 
             // guna2Separator1
             // 
@@ -328,9 +283,9 @@
             this.btnAddNewCoach.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnAddNewCoach.ForeColor = System.Drawing.Color.Black;
             this.btnAddNewCoach.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.btnAddNewCoach.Image = global::GymMangementSystem.Properties.Resources.AddUser;
+            this.btnAddNewCoach.Image = global::GymMangementSystem.Properties.Resources.file_00000000aa248211a4d0217824e5ad4d;
             this.btnAddNewCoach.ImageOffset = new System.Drawing.Point(1, 1);
-            this.btnAddNewCoach.ImageSize = new System.Drawing.Size(35, 30);
+            this.btnAddNewCoach.ImageSize = new System.Drawing.Size(40, 40);
             this.btnAddNewCoach.Location = new System.Drawing.Point(1261, 300);
             this.btnAddNewCoach.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddNewCoach.Name = "btnAddNewCoach";
@@ -341,7 +296,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.Coach;
-            this.pictureBox1.Location = new System.Drawing.Point(206, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(211, 48);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(893, 239);
@@ -375,6 +330,51 @@
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // CoachDetailsToolStripMenuItem
+            // 
+            this.CoachDetailsToolStripMenuItem.AutoToolTip = true;
+            this.CoachDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.PersonDetails;
+            this.CoachDetailsToolStripMenuItem.Name = "CoachDetailsToolStripMenuItem";
+            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
+            this.CoachDetailsToolStripMenuItem.Text = "Coach Details";
+            this.CoachDetailsToolStripMenuItem.Click += new System.EventHandler(this.CoachDetailsToolStripMenuItem_Click);
+            // 
+            // addCoachToolStripMenuItem
+            // 
+            this.addCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.AddPerson;
+            this.addCoachToolStripMenuItem.Name = "addCoachToolStripMenuItem";
+            this.addCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
+            this.addCoachToolStripMenuItem.Text = "Add Coach";
+            this.addCoachToolStripMenuItem.Click += new System.EventHandler(this.addCoachToolStripMenuItem_Click);
+            // 
+            // updateCoachToolStripMenuItem
+            // 
+            this.updateCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.UpdatePerson;
+            this.updateCoachToolStripMenuItem.Name = "updateCoachToolStripMenuItem";
+            this.updateCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
+            this.updateCoachToolStripMenuItem.Text = "Update Coach";
+            this.updateCoachToolStripMenuItem.Click += new System.EventHandler(this.updateCoachToolStripMenuItem_Click);
+            // 
+            // deleteCoachToolStripMenuItem1
+            // 
+            this.deleteCoachToolStripMenuItem1.Image = global::GymMangementSystem.Properties.Resources.Delete;
+            this.deleteCoachToolStripMenuItem1.Name = "deleteCoachToolStripMenuItem1";
+            this.deleteCoachToolStripMenuItem1.Size = new System.Drawing.Size(224, 38);
+            this.deleteCoachToolStripMenuItem1.Text = "Delete Coach";
+            this.deleteCoachToolStripMenuItem1.Click += new System.EventHandler(this.deleteCoachToolStripMenuItem1_Click);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.CoachesWhite;
+            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(56, 46);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 1;
+            this.pictureBox10.TabStop = false;
+            // 
             // frmManageCoaches
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -399,10 +399,10 @@
             this.Load += new System.EventHandler(this.frmManageCoaches_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCoaches)).EndInit();
             this.guna2ContextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
