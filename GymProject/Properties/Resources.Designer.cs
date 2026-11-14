@@ -983,6 +983,16 @@ namespace GymMangementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PaymentManagements {
+            get {
+                object obj = ResourceManager.GetObject("PaymentManagements", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PaymentMethod {
             get {
                 object obj = ResourceManager.GetObject("PaymentMethod", resourceCulture);

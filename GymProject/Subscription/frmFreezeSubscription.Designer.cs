@@ -143,7 +143,7 @@
             this.pnlFrozenSubscription.Controls.Add(this.lblFrozenSubscriptionID);
             this.pnlFrozenSubscription.Controls.Add(this.label10);
             this.pnlFrozenSubscription.Enabled = false;
-            this.pnlFrozenSubscription.Location = new System.Drawing.Point(12, 678);
+            this.pnlFrozenSubscription.Location = new System.Drawing.Point(12, 682);
             this.pnlFrozenSubscription.Name = "pnlFrozenSubscription";
             this.pnlFrozenSubscription.Size = new System.Drawing.Size(1180, 208);
             this.pnlFrozenSubscription.TabIndex = 16;
@@ -494,7 +494,7 @@
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnSave.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSave.Location = new System.Drawing.Point(1047, 893);
+            this.btnSave.Location = new System.Drawing.Point(1047, 898);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(145, 38);
@@ -520,20 +520,20 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(869, 893);
+            this.btnClose.Location = new System.Drawing.Point(869, 898);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(156, 38);
             this.btnClose.TabIndex = 20;
             this.btnClose.Text = "Close";
             // 
-            // frmAddUpdateFrozenSubscription
+            // frmFreezeSubscription
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1204, 936);
+            this.ClientSize = new System.Drawing.Size(1204, 945);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.pnlFrozenSubscription);
@@ -541,7 +541,7 @@
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "frmAddUpdateFrozenSubscription";
+            this.Name = "frmFreezeSubscription";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAddUpdateFreezeSubscription";
             this.Load += new System.EventHandler(this.frmAddUpdateFrozenSubscription_Load);
