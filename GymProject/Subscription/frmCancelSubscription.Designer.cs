@@ -129,7 +129,7 @@
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnSave.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSave.Location = new System.Drawing.Point(1049, 886);
+            this.btnSave.Location = new System.Drawing.Point(1049, 899);
             this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(145, 38);
@@ -155,7 +155,7 @@
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(870, 886);
+            this.btnClose.Location = new System.Drawing.Point(870, 900);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(156, 38);
@@ -192,7 +192,7 @@
             this.pnlCancelSubscription.Controls.Add(this.lblSubscriptionCancellationID);
             this.pnlCancelSubscription.Controls.Add(this.label10);
             this.pnlCancelSubscription.Enabled = false;
-            this.pnlCancelSubscription.Location = new System.Drawing.Point(7, 679);
+            this.pnlCancelSubscription.Location = new System.Drawing.Point(7, 686);
             this.pnlCancelSubscription.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlCancelSubscription.Name = "pnlCancelSubscription";
             this.pnlCancelSubscription.Size = new System.Drawing.Size(1187, 199);
@@ -501,17 +501,17 @@
             this.ctrlMemberBasicDetailsWithFilter1.Location = new System.Drawing.Point(5, 49);
             this.ctrlMemberBasicDetailsWithFilter1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ctrlMemberBasicDetailsWithFilter1.Name = "ctrlMemberBasicDetailsWithFilter1";
-            this.ctrlMemberBasicDetailsWithFilter1.Size = new System.Drawing.Size(1189, 626);
+            this.ctrlMemberBasicDetailsWithFilter1.Size = new System.Drawing.Size(1189, 641);
             this.ctrlMemberBasicDetailsWithFilter1.TabIndex = 0;
             this.ctrlMemberBasicDetailsWithFilter1.OnMemberSelected += new System.EventHandler<GymMangementSystem.ctrlMemberBasicDetailsWithFilter.MemberEventArgs>(this.ctrlMemberBasicDetailsWithFilter1_OnMemberSelected);
             // 
-            // frmAddUpdateCancelSubscription
+            // frmCancelSubscription
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1206, 935);
+            this.ClientSize = new System.Drawing.Size(1206, 950);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.pnlCancelSubscription);
@@ -519,7 +519,7 @@
             this.Controls.Add(this.ctrlMemberBasicDetailsWithFilter1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "frmAddUpdateCancelSubscription";
+            this.Name = "frmCancelSubscription";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAddUpdateCancelSubscription";
             this.Load += new System.EventHandler(this.frmAddUpdateCancelSubscription_Load);
