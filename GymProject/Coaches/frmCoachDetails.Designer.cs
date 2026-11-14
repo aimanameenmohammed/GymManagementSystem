@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
-            this.ctrlCoachDetails1 = new GymMangementSystem.ctrlCoachDetails();
+            this.ctrlCoachDetails2 = new GymMangementSystem.ctrlCoachDetails();
             this.SuspendLayout();
             // 
             // btnClose
@@ -50,39 +50,40 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(795, 466);
+            this.btnClose.Location = new System.Drawing.Point(991, 592);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(156, 34);
+            this.btnClose.Size = new System.Drawing.Size(195, 42);
             this.btnClose.TabIndex = 102;
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // ctrlCoachDetails1
+            // ctrlCoachDetails2
             // 
-            this.ctrlCoachDetails1.BackColor = System.Drawing.Color.White;
-            this.ctrlCoachDetails1.Location = new System.Drawing.Point(-3, -9);
-            this.ctrlCoachDetails1.Name = "ctrlCoachDetails1";
-            this.ctrlCoachDetails1.Size = new System.Drawing.Size(966, 474);
-            this.ctrlCoachDetails1.TabIndex = 0;
+            this.ctrlCoachDetails2.BackColor = System.Drawing.Color.White;
+            this.ctrlCoachDetails2.Location = new System.Drawing.Point(-6, -9);
+            this.ctrlCoachDetails2.Margin = new System.Windows.Forms.Padding(4);
+            this.ctrlCoachDetails2.Name = "ctrlCoachDetails2";
+            this.ctrlCoachDetails2.Size = new System.Drawing.Size(1206, 596);
+            this.ctrlCoachDetails2.TabIndex = 103;
             // 
             // frmCoachDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(954, 504);
+            this.ClientSize = new System.Drawing.Size(1197, 644);
+            this.Controls.Add(this.ctrlCoachDetails2);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.ctrlCoachDetails1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmCoachDetails";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private ctrlCoachDetails ctrlCoachDetails1;
         private Guna.UI2.WinForms.Guna2Button btnClose;
+        private ctrlCoachDetails ctrlCoachDetails2;
     }
 }
