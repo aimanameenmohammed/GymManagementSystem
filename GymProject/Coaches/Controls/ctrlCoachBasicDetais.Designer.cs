@@ -75,7 +75,7 @@
             this.guna2GroupBox2.Location = new System.Drawing.Point(3, 4);
             this.guna2GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
-            this.guna2GroupBox2.Size = new System.Drawing.Size(1270, 225);
+            this.guna2GroupBox2.Size = new System.Drawing.Size(1180, 225);
             this.guna2GroupBox2.TabIndex = 35;
             this.guna2GroupBox2.Text = "Coach Information";
             this.guna2GroupBox2.Click += new System.EventHandler(this.guna2GroupBox2_Click);
@@ -125,10 +125,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::GymMangementSystem.Properties.Resources.managePeople2;
-            this.pictureBox4.Location = new System.Drawing.Point(863, 53);
+            this.pictureBox4.Location = new System.Drawing.Point(952, 43);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(377, 80);
+            this.pictureBox4.Size = new System.Drawing.Size(126, 80);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 31;
             this.pictureBox4.TabStop = false;
@@ -150,7 +150,7 @@
             this.lblAssignedMembers.AutoSize = true;
             this.lblAssignedMembers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
             this.lblAssignedMembers.ForeColor = System.Drawing.Color.Black;
-            this.lblAssignedMembers.Location = new System.Drawing.Point(1036, 142);
+            this.lblAssignedMembers.Location = new System.Drawing.Point(992, 141);
             this.lblAssignedMembers.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAssignedMembers.Name = "lblAssignedMembers";
             this.lblAssignedMembers.Size = new System.Drawing.Size(66, 22);
@@ -185,7 +185,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(978, 185);
+            this.label5.Location = new System.Drawing.Point(937, 184);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(180, 25);
@@ -195,10 +195,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::GymMangementSystem.Properties.Resources.Dnable3;
-            this.pictureBox2.Location = new System.Drawing.Point(515, 48);
+            this.pictureBox2.Location = new System.Drawing.Point(567, 50);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(316, 62);
+            this.pictureBox2.Size = new System.Drawing.Size(196, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 26;
             this.pictureBox2.TabStop = false;
@@ -219,7 +219,7 @@
             this.lblTotalClasses.AutoSize = true;
             this.lblTotalClasses.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
             this.lblTotalClasses.ForeColor = System.Drawing.Color.Black;
-            this.lblTotalClasses.Location = new System.Drawing.Point(645, 142);
+            this.lblTotalClasses.Location = new System.Drawing.Point(640, 139);
             this.lblTotalClasses.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalClasses.Name = "lblTotalClasses";
             this.lblTotalClasses.Size = new System.Drawing.Size(66, 22);
@@ -231,7 +231,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(619, 185);
+            this.label3.Location = new System.Drawing.Point(614, 182);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(121, 25);
@@ -240,7 +240,7 @@
             // 
             // guna2VSeparator1
             // 
-            this.guna2VSeparator1.Location = new System.Drawing.Point(494, 52);
+            this.guna2VSeparator1.Location = new System.Drawing.Point(478, 52);
             this.guna2VSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2VSeparator1.Name = "guna2VSeparator1";
             this.guna2VSeparator1.Size = new System.Drawing.Size(13, 161);
@@ -248,7 +248,7 @@
             // 
             // guna2VSeparator2
             // 
-            this.guna2VSeparator2.Location = new System.Drawing.Point(839, 50);
+            this.guna2VSeparator2.Location = new System.Drawing.Point(843, 47);
             this.guna2VSeparator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2VSeparator2.Name = "guna2VSeparator2";
             this.guna2VSeparator2.Size = new System.Drawing.Size(16, 162);
@@ -262,7 +262,7 @@
             this.Controls.Add(this.guna2GroupBox2);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ctrlCoachBasicDetais";
-            this.Size = new System.Drawing.Size(1277, 231);
+            this.Size = new System.Drawing.Size(1188, 231);
             this.guna2GroupBox2.ResumeLayout(false);
             this.guna2GroupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
