@@ -35,8 +35,13 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTitle2 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.dgvCoaches = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.CoachDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteCoachToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.label2 = new System.Windows.Forms.Label();
             this.lblRecord = new System.Windows.Forms.Label();
@@ -46,16 +51,11 @@
             this.btnAddNewCoach = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
-            this.CoachDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateCoachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deleteCoachToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCoaches)).BeginInit();
             this.guna2ContextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -91,6 +91,18 @@
             this.lblTitle2.Size = new System.Drawing.Size(271, 32);
             this.lblTitle2.TabIndex = 2;
             this.lblTitle2.Text = "Coaches Management";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.CoachesWhite;
+            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(56, 46);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 1;
+            this.pictureBox10.TabStop = false;
             // 
             // dgvCoaches
             // 
@@ -171,6 +183,39 @@
             this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(225, 156);
+            // 
+            // CoachDetailsToolStripMenuItem
+            // 
+            this.CoachDetailsToolStripMenuItem.AutoToolTip = true;
+            this.CoachDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.PersonDetails;
+            this.CoachDetailsToolStripMenuItem.Name = "CoachDetailsToolStripMenuItem";
+            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
+            this.CoachDetailsToolStripMenuItem.Text = "Coach Details";
+            this.CoachDetailsToolStripMenuItem.Click += new System.EventHandler(this.CoachDetailsToolStripMenuItem_Click);
+            // 
+            // addCoachToolStripMenuItem
+            // 
+            this.addCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.AddPerson;
+            this.addCoachToolStripMenuItem.Name = "addCoachToolStripMenuItem";
+            this.addCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
+            this.addCoachToolStripMenuItem.Text = "Add Coach";
+            this.addCoachToolStripMenuItem.Click += new System.EventHandler(this.addCoachToolStripMenuItem_Click);
+            // 
+            // updateCoachToolStripMenuItem
+            // 
+            this.updateCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.UpdatePerson;
+            this.updateCoachToolStripMenuItem.Name = "updateCoachToolStripMenuItem";
+            this.updateCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
+            this.updateCoachToolStripMenuItem.Text = "Update Coach";
+            this.updateCoachToolStripMenuItem.Click += new System.EventHandler(this.updateCoachToolStripMenuItem_Click);
+            // 
+            // deleteCoachToolStripMenuItem1
+            // 
+            this.deleteCoachToolStripMenuItem1.Image = global::GymMangementSystem.Properties.Resources.Delete;
+            this.deleteCoachToolStripMenuItem1.Name = "deleteCoachToolStripMenuItem1";
+            this.deleteCoachToolStripMenuItem1.Size = new System.Drawing.Size(224, 38);
+            this.deleteCoachToolStripMenuItem1.Text = "Delete Coach";
+            this.deleteCoachToolStripMenuItem1.Click += new System.EventHandler(this.deleteCoachToolStripMenuItem1_Click);
             // 
             // guna2Separator1
             // 
@@ -296,7 +341,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.Coach;
-            this.pictureBox1.Location = new System.Drawing.Point(228, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(243, 48);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(893, 239);
@@ -330,51 +375,6 @@
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // CoachDetailsToolStripMenuItem
-            // 
-            this.CoachDetailsToolStripMenuItem.AutoToolTip = true;
-            this.CoachDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.PersonDetails;
-            this.CoachDetailsToolStripMenuItem.Name = "CoachDetailsToolStripMenuItem";
-            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
-            this.CoachDetailsToolStripMenuItem.Text = "Coach Details";
-            this.CoachDetailsToolStripMenuItem.Click += new System.EventHandler(this.CoachDetailsToolStripMenuItem_Click);
-            // 
-            // addCoachToolStripMenuItem
-            // 
-            this.addCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.AddPerson;
-            this.addCoachToolStripMenuItem.Name = "addCoachToolStripMenuItem";
-            this.addCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
-            this.addCoachToolStripMenuItem.Text = "Add Coach";
-            this.addCoachToolStripMenuItem.Click += new System.EventHandler(this.addCoachToolStripMenuItem_Click);
-            // 
-            // updateCoachToolStripMenuItem
-            // 
-            this.updateCoachToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.UpdatePerson;
-            this.updateCoachToolStripMenuItem.Name = "updateCoachToolStripMenuItem";
-            this.updateCoachToolStripMenuItem.Size = new System.Drawing.Size(224, 38);
-            this.updateCoachToolStripMenuItem.Text = "Update Coach";
-            this.updateCoachToolStripMenuItem.Click += new System.EventHandler(this.updateCoachToolStripMenuItem_Click);
-            // 
-            // deleteCoachToolStripMenuItem1
-            // 
-            this.deleteCoachToolStripMenuItem1.Image = global::GymMangementSystem.Properties.Resources.Delete;
-            this.deleteCoachToolStripMenuItem1.Name = "deleteCoachToolStripMenuItem1";
-            this.deleteCoachToolStripMenuItem1.Size = new System.Drawing.Size(224, 38);
-            this.deleteCoachToolStripMenuItem1.Text = "Delete Coach";
-            this.deleteCoachToolStripMenuItem1.Click += new System.EventHandler(this.deleteCoachToolStripMenuItem1_Click);
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.CoachesWhite;
-            this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(56, 46);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 1;
-            this.pictureBox10.TabStop = false;
-            // 
             // frmManageCoaches
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -399,10 +399,10 @@
             this.Load += new System.EventHandler(this.frmManageCoaches_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCoaches)).EndInit();
             this.guna2ContextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -200,11 +200,11 @@
             // 
             this.guna2CirclePictureBox10.Image = global::GymMangementSystem.Properties.Resources.CapacityCircle;
             this.guna2CirclePictureBox10.ImageRotate = 0F;
-            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(432, 23);
+            this.guna2CirclePictureBox10.Location = new System.Drawing.Point(433, 23);
             this.guna2CirclePictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
             this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox10.Size = new System.Drawing.Size(55, 60);
             this.guna2CirclePictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox10.TabIndex = 73;
             this.guna2CirclePictureBox10.TabStop = false;
@@ -359,11 +359,11 @@
             // 
             this.guna2CirclePictureBox9.Image = global::GymMangementSystem.Properties.Resources.SechedulingCircle;
             this.guna2CirclePictureBox9.ImageRotate = 0F;
-            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(7, 321);
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(10, 298);
             this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
             this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(54, 60);
             this.guna2CirclePictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox9.TabIndex = 60;
             this.guna2CirclePictureBox9.TabStop = false;
@@ -482,11 +482,11 @@
             // 
             this.guna2CirclePictureBox6.Image = global::GymMangementSystem.Properties.Resources.IsActiveCircle;
             this.guna2CirclePictureBox6.ImageRotate = 0F;
-            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(432, 116);
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(433, 116);
             this.guna2CirclePictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
             this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(55, 60);
             this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox6.TabIndex = 49;
             this.guna2CirclePictureBox6.TabStop = false;
@@ -500,7 +500,7 @@
             this.guna2CirclePictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
             this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox5.Size = new System.Drawing.Size(56, 59);
             this.guna2CirclePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox5.TabIndex = 48;
             this.guna2CirclePictureBox5.TabStop = false;
@@ -513,7 +513,7 @@
             this.guna2CirclePictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
             this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(51, 60);
             this.guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox4.TabIndex = 47;
             this.guna2CirclePictureBox4.TabStop = false;
@@ -535,11 +535,11 @@
             // 
             this.guna2CirclePictureBox2.Image = global::GymMangementSystem.Properties.Resources.SechedulingCircle;
             this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(5, 240);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(12, 220);
             this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(49, 60);
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox2.TabIndex = 45;
             this.guna2CirclePictureBox2.TabStop = false;
@@ -548,11 +548,11 @@
             // 
             this.guna2CirclePictureBox1.Image = global::GymMangementSystem.Properties.Resources.CapacityCircle;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(1, 78);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(10, 73);
             this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(53, 60);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 44;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -561,11 +561,11 @@
             // 
             this.guna2CirclePictureBox8.Image = global::GymMangementSystem.Properties.Resources.PersonCircle;
             this.guna2CirclePictureBox8.ImageRotate = 0F;
-            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(7, 156);
+            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(12, 150);
             this.guna2CirclePictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox8.Name = "guna2CirclePictureBox8";
             this.guna2CirclePictureBox8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox8.Size = new System.Drawing.Size(51, 60);
             this.guna2CirclePictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox8.TabIndex = 51;
             this.guna2CirclePictureBox8.TabStop = false;

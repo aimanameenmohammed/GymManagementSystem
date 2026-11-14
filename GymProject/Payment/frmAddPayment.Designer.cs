@@ -180,6 +180,7 @@
             this.tpPaymentInfo.Controls.Add(this.guna2CirclePictureBox6);
             this.tpPaymentInfo.Controls.Add(this.txtPaymentAmount);
             this.tpPaymentInfo.Controls.Add(this.ctrlPaymentDetails1);
+            this.tpPaymentInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.8F);
             this.tpPaymentInfo.Location = new System.Drawing.Point(4, 25);
             this.tpPaymentInfo.Margin = new System.Windows.Forms.Padding(4);
             this.tpPaymentInfo.Name = "tpPaymentInfo";

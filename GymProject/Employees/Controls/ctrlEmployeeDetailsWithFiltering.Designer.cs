@@ -83,7 +83,7 @@
             this.txtFiltering.InputType = GymMangementSystem.MyTextBox.TextType.Numeric;
             this.txtFiltering.IsRequired = true;
             this.txtFiltering.Location = new System.Drawing.Point(480, 19);
-            this.txtFiltering.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtFiltering.Margin = new System.Windows.Forms.Padding(5);
             this.txtFiltering.Name = "txtFiltering";
             this.txtFiltering.PlaceholderText = "Search...";
             this.txtFiltering.SelectedText = "";
@@ -153,7 +153,7 @@
             this.cmFilteringType.Items.AddRange(new object[] {
             "Employee ID",
             "National Nu"});
-            this.cmFilteringType.Location = new System.Drawing.Point(237, 16);
+            this.cmFilteringType.Location = new System.Drawing.Point(237, 18);
             this.cmFilteringType.Margin = new System.Windows.Forms.Padding(2);
             this.cmFilteringType.Name = "cmFilteringType";
             this.cmFilteringType.Size = new System.Drawing.Size(234, 36);
@@ -165,7 +165,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(137, 22);
+            this.label9.Location = new System.Drawing.Point(137, 25);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(78, 22);

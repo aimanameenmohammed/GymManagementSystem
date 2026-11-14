@@ -194,7 +194,7 @@
             // 
             this.pnlCheckOut.Controls.Add(this.rdNoCheckOut);
             this.pnlCheckOut.Controls.Add(this.rdYesCheckOut);
-            this.pnlCheckOut.Location = new System.Drawing.Point(535, 89);
+            this.pnlCheckOut.Location = new System.Drawing.Point(558, 89);
             this.pnlCheckOut.Name = "pnlCheckOut";
             this.pnlCheckOut.Size = new System.Drawing.Size(140, 35);
             this.pnlCheckOut.TabIndex = 175;
@@ -227,7 +227,7 @@
             // 
             this.pnlCheckin.Controls.Add(this.rdNoChechIn);
             this.pnlCheckin.Controls.Add(this.rdYesChechIn);
-            this.pnlCheckin.Location = new System.Drawing.Point(535, 45);
+            this.pnlCheckin.Location = new System.Drawing.Point(558, 47);
             this.pnlCheckin.Name = "pnlCheckin";
             this.pnlCheckin.Size = new System.Drawing.Size(140, 35);
             this.pnlCheckin.TabIndex = 150;
@@ -260,7 +260,7 @@
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox6.Image = global::GymMangementSystem.Properties.Resources.Active;
-            this.pictureBox6.Location = new System.Drawing.Point(494, 92);
+            this.pictureBox6.Location = new System.Drawing.Point(517, 92);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(34, 32);
@@ -272,7 +272,7 @@
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox4.Image = global::GymMangementSystem.Properties.Resources.Active;
-            this.pictureBox4.Location = new System.Drawing.Point(494, 45);
+            this.pictureBox4.Location = new System.Drawing.Point(517, 47);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(34, 32);
@@ -339,7 +339,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(361, 100);
+            this.label4.Location = new System.Drawing.Point(384, 100);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(127, 22);
@@ -350,7 +350,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(373, 51);
+            this.label3.Location = new System.Drawing.Point(396, 53);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 22);
@@ -360,7 +360,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.SechedulingCircle;
-            this.pictureBox1.Location = new System.Drawing.Point(156, 99);
+            this.pictureBox1.Location = new System.Drawing.Point(153, 99);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(34, 30);
@@ -372,7 +372,7 @@
             // 
             this.lblCheckinDate.AutoSize = true;
             this.lblCheckinDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCheckinDate.Location = new System.Drawing.Point(193, 103);
+            this.lblCheckinDate.Location = new System.Drawing.Point(190, 103);
             this.lblCheckinDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCheckinDate.Name = "lblCheckinDate";
             this.lblCheckinDate.Size = new System.Drawing.Size(126, 22);
@@ -393,7 +393,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::GymMangementSystem.Properties.Resources.ClassID;
-            this.pictureBox5.Location = new System.Drawing.Point(156, 51);
+            this.pictureBox5.Location = new System.Drawing.Point(153, 51);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(34, 35);
@@ -404,7 +404,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::GymMangementSystem.Properties.Resources.ClassID;
-            this.pictureBox3.Location = new System.Drawing.Point(156, 7);
+            this.pictureBox3.Location = new System.Drawing.Point(153, 7);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(34, 35);
@@ -416,7 +416,7 @@
             // 
             this.lblEmployeeID.AutoSize = true;
             this.lblEmployeeID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmployeeID.Location = new System.Drawing.Point(193, 55);
+            this.lblEmployeeID.Location = new System.Drawing.Point(190, 55);
             this.lblEmployeeID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmployeeID.Name = "lblEmployeeID";
             this.lblEmployeeID.Size = new System.Drawing.Size(66, 22);
@@ -438,7 +438,7 @@
             // 
             this.lblEmployeeAttendanceID.AutoSize = true;
             this.lblEmployeeAttendanceID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmployeeAttendanceID.Location = new System.Drawing.Point(193, 11);
+            this.lblEmployeeAttendanceID.Location = new System.Drawing.Point(190, 11);
             this.lblEmployeeAttendanceID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmployeeAttendanceID.Name = "lblEmployeeAttendanceID";
             this.lblEmployeeAttendanceID.Size = new System.Drawing.Size(66, 22);
