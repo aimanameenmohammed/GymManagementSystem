@@ -41,10 +41,10 @@
             // ctrlEmployeeDetails1
             // 
             this.ctrlEmployeeDetails1.BackColor = System.Drawing.Color.White;
-            this.ctrlEmployeeDetails1.Location = new System.Drawing.Point(0, 59);
+            this.ctrlEmployeeDetails1.Location = new System.Drawing.Point(0, 74);
             this.ctrlEmployeeDetails1.Margin = new System.Windows.Forms.Padding(2);
             this.ctrlEmployeeDetails1.Name = "ctrlEmployeeDetails1";
-            this.ctrlEmployeeDetails1.Size = new System.Drawing.Size(895, 498);
+            this.ctrlEmployeeDetails1.Size = new System.Drawing.Size(1197, 622);
             this.ctrlEmployeeDetails1.TabIndex = 0;
             // 
             // gbFiltering
@@ -59,10 +59,10 @@
             this.gbFiltering.CustomBorderColor = System.Drawing.Color.Transparent;
             this.gbFiltering.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbFiltering.ForeColor = System.Drawing.Color.Black;
-            this.gbFiltering.Location = new System.Drawing.Point(4, 4);
+            this.gbFiltering.Location = new System.Drawing.Point(7, 5);
             this.gbFiltering.Margin = new System.Windows.Forms.Padding(2);
             this.gbFiltering.Name = "gbFiltering";
-            this.gbFiltering.Size = new System.Drawing.Size(886, 54);
+            this.gbFiltering.Size = new System.Drawing.Size(1177, 68);
             this.gbFiltering.TabIndex = 3;
             this.gbFiltering.Text = "Filter";
             // 
@@ -82,12 +82,12 @@
             this.txtFiltering.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtFiltering.InputType = GymMangementSystem.MyTextBox.TextType.Numeric;
             this.txtFiltering.IsRequired = true;
-            this.txtFiltering.Location = new System.Drawing.Point(364, 15);
-            this.txtFiltering.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFiltering.Location = new System.Drawing.Point(480, 19);
+            this.txtFiltering.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtFiltering.Name = "txtFiltering";
             this.txtFiltering.PlaceholderText = "Search...";
             this.txtFiltering.SelectedText = "";
-            this.txtFiltering.Size = new System.Drawing.Size(218, 28);
+            this.txtFiltering.Size = new System.Drawing.Size(272, 35);
             this.txtFiltering.TabIndex = 90;
             this.txtFiltering.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFiltering_KeyPress);
             // 
@@ -108,10 +108,10 @@
             this.btnAddNewEmployee.Image = global::GymMangementSystem.Properties.Resources.AddUser;
             this.btnAddNewEmployee.ImageOffset = new System.Drawing.Point(1, 1);
             this.btnAddNewEmployee.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnAddNewEmployee.Location = new System.Drawing.Point(705, 13);
+            this.btnAddNewEmployee.Location = new System.Drawing.Point(906, 16);
             this.btnAddNewEmployee.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddNewEmployee.Name = "btnAddNewEmployee";
-            this.btnAddNewEmployee.Size = new System.Drawing.Size(58, 29);
+            this.btnAddNewEmployee.Size = new System.Drawing.Size(72, 36);
             this.btnAddNewEmployee.TabIndex = 89;
             this.btnAddNewEmployee.Click += new System.EventHandler(this.btnAddNewEmployee_Click);
             // 
@@ -132,10 +132,10 @@
             this.btnFind.Image = global::GymMangementSystem.Properties.Resources.SearchPerson;
             this.btnFind.ImageOffset = new System.Drawing.Point(1, 1);
             this.btnFind.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnFind.Location = new System.Drawing.Point(631, 13);
+            this.btnFind.Location = new System.Drawing.Point(814, 16);
             this.btnFind.Margin = new System.Windows.Forms.Padding(2);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(58, 29);
+            this.btnFind.Size = new System.Drawing.Size(72, 36);
             this.btnFind.TabIndex = 88;
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
@@ -153,10 +153,10 @@
             this.cmFilteringType.Items.AddRange(new object[] {
             "Employee ID",
             "National Nu"});
-            this.cmFilteringType.Location = new System.Drawing.Point(170, 13);
+            this.cmFilteringType.Location = new System.Drawing.Point(237, 16);
             this.cmFilteringType.Margin = new System.Windows.Forms.Padding(2);
             this.cmFilteringType.Name = "cmFilteringType";
-            this.cmFilteringType.Size = new System.Drawing.Size(188, 36);
+            this.cmFilteringType.Size = new System.Drawing.Size(234, 36);
             this.cmFilteringType.StartIndex = 0;
             this.cmFilteringType.TabIndex = 86;
             this.cmFilteringType.SelectedIndexChanged += new System.EventHandler(this.cmFilteringType_SelectedIndexChanged);
@@ -165,23 +165,23 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(90, 18);
+            this.label9.Location = new System.Drawing.Point(137, 22);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 18);
+            this.label9.Size = new System.Drawing.Size(78, 22);
             this.label9.TabIndex = 85;
             this.label9.Text = "FindBy:";
             // 
             // ctrlEmployeeDetailsWithFiltering
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.gbFiltering);
             this.Controls.Add(this.ctrlEmployeeDetails1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ctrlEmployeeDetailsWithFiltering";
-            this.Size = new System.Drawing.Size(896, 558);
+            this.Size = new System.Drawing.Size(1197, 698);
             this.gbFiltering.ResumeLayout(false);
             this.gbFiltering.PerformLayout();
             this.ResumeLayout(false);
