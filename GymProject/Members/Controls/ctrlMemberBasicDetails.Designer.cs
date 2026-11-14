@@ -117,7 +117,7 @@
             this.lnkShowLastSubscriptionInfo.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lnkShowLastSubscriptionInfo.Enabled = false;
             this.lnkShowLastSubscriptionInfo.Font = new System.Drawing.Font("Segoe UI Emoji", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkShowLastSubscriptionInfo.Location = new System.Drawing.Point(882, 179);
+            this.lnkShowLastSubscriptionInfo.Location = new System.Drawing.Point(869, 179);
             this.lnkShowLastSubscriptionInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lnkShowLastSubscriptionInfo.Name = "lnkShowLastSubscriptionInfo";
             this.lnkShowLastSubscriptionInfo.Size = new System.Drawing.Size(295, 31);
