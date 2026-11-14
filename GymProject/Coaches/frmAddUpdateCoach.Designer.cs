@@ -63,9 +63,9 @@
             this.panel4.Controls.Add(this.pictureBox10);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1247, 49);
+            this.panel4.Size = new System.Drawing.Size(1201, 49);
             this.panel4.TabIndex = 16;
             // 
             // lblTitle
@@ -86,7 +86,7 @@
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.CancelIcon;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(56, 49);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -112,10 +112,10 @@
             this.pnlCoachInput.Controls.Add(this.lblCoachID);
             this.pnlCoachInput.Controls.Add(this.label14);
             this.pnlCoachInput.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.pnlCoachInput.Location = new System.Drawing.Point(11, 734);
-            this.pnlCoachInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlCoachInput.Location = new System.Drawing.Point(8, 751);
+            this.pnlCoachInput.Margin = new System.Windows.Forms.Padding(4);
             this.pnlCoachInput.Name = "pnlCoachInput";
-            this.pnlCoachInput.Size = new System.Drawing.Size(1179, 133);
+            this.pnlCoachInput.Size = new System.Drawing.Size(1181, 133);
             this.pnlCoachInput.TabIndex = 140;
             // 
             // pictureBox1
@@ -123,7 +123,7 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.NoteCircle;
             this.pictureBox1.Location = new System.Drawing.Point(736, 41);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(49, 32);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -178,7 +178,7 @@
             this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox7.Image = global::GymMangementSystem.Properties.Resources.NoteCircle;
             this.pictureBox7.Location = new System.Drawing.Point(125, 64);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(35, 32);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -232,7 +232,7 @@
             // 
             this.pictureBox5.Image = global::GymMangementSystem.Properties.Resources.ClassID;
             this.pictureBox5.Location = new System.Drawing.Point(517, 14);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(35, 34);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -243,7 +243,7 @@
             // 
             this.pictureBox3.Image = global::GymMangementSystem.Properties.Resources.ClassID;
             this.pictureBox3.Location = new System.Drawing.Point(127, 12);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(35, 34);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -308,7 +308,7 @@
             this.btnSave.Image = global::GymMangementSystem.Properties.Resources.Save_32;
             this.btnSave.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnSave.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSave.Location = new System.Drawing.Point(1044, 878);
+            this.btnSave.Location = new System.Drawing.Point(1044, 895);
             this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(145, 37);
@@ -334,7 +334,7 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(876, 878);
+            this.btnClose.Location = new System.Drawing.Point(876, 895);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(156, 37);
@@ -345,10 +345,10 @@
             // ctrlEmployeeDetailsWithFiltering1
             // 
             this.ctrlEmployeeDetailsWithFiltering1.BackColor = System.Drawing.Color.White;
-            this.ctrlEmployeeDetailsWithFiltering1.Location = new System.Drawing.Point(30, 41);
+            this.ctrlEmployeeDetailsWithFiltering1.Location = new System.Drawing.Point(3, 50);
             this.ctrlEmployeeDetailsWithFiltering1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ctrlEmployeeDetailsWithFiltering1.Name = "ctrlEmployeeDetailsWithFiltering1";
-            this.ctrlEmployeeDetailsWithFiltering1.Size = new System.Drawing.Size(1218, 687);
+            this.ctrlEmployeeDetailsWithFiltering1.Size = new System.Drawing.Size(1195, 698);
             this.ctrlEmployeeDetailsWithFiltering1.TabIndex = 17;
             this.ctrlEmployeeDetailsWithFiltering1.OnEmployeeSelected += new System.EventHandler<GymMangementSystem.ctrlEmployeeDetailsWithFiltering.EmployeeEventArgs>(this.ctrlEmployeeDetailsWithFiltering1_OnEmployeeSelected);
             // 
@@ -358,7 +358,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1247, 922);
+            this.ClientSize = new System.Drawing.Size(1201, 942);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.pnlCoachInput);
