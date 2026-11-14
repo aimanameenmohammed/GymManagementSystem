@@ -244,6 +244,10 @@ namespace GymMangementSystem
         {
             cmsSetting.Show(btnSettings, new Point(btnSettings.Width, 0));
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
-g
