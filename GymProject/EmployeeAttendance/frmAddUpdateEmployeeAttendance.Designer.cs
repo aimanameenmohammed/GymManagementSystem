@@ -125,7 +125,7 @@
             this.btnSave.Image = global::GymMangementSystem.Properties.Resources.Save_32;
             this.btnSave.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnSave.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSave.Location = new System.Drawing.Point(1044, 884);
+            this.btnSave.Location = new System.Drawing.Point(1044, 888);
             this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(145, 37);
@@ -151,7 +151,7 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(876, 884);
+            this.btnClose.Location = new System.Drawing.Point(876, 888);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(156, 37);
@@ -184,7 +184,7 @@
             this.pnlAttendanceInput.Controls.Add(this.lblEmployeeAttendanceID);
             this.pnlAttendanceInput.Controls.Add(this.label14);
             this.pnlAttendanceInput.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.pnlAttendanceInput.Location = new System.Drawing.Point(7, 726);
+            this.pnlAttendanceInput.Location = new System.Drawing.Point(7, 745);
             this.pnlAttendanceInput.Margin = new System.Windows.Forms.Padding(4);
             this.pnlAttendanceInput.Name = "pnlAttendanceInput";
             this.pnlAttendanceInput.Size = new System.Drawing.Size(1179, 133);
@@ -460,8 +460,9 @@
             // 
             this.ctrlEmployeeDetailsWithFiltering1.BackColor = System.Drawing.Color.White;
             this.ctrlEmployeeDetailsWithFiltering1.Location = new System.Drawing.Point(1, 41);
+            this.ctrlEmployeeDetailsWithFiltering1.Margin = new System.Windows.Forms.Padding(2);
             this.ctrlEmployeeDetailsWithFiltering1.Name = "ctrlEmployeeDetailsWithFiltering1";
-            this.ctrlEmployeeDetailsWithFiltering1.Size = new System.Drawing.Size(1194, 687);
+            this.ctrlEmployeeDetailsWithFiltering1.Size = new System.Drawing.Size(1194, 704);
             this.ctrlEmployeeDetailsWithFiltering1.TabIndex = 16;
             this.ctrlEmployeeDetailsWithFiltering1.OnEmployeeSelected += new System.EventHandler<GymMangementSystem.ctrlEmployeeDetailsWithFiltering.EmployeeEventArgs>(this.ctrlEmployeeDetailsWithFiltering1_OnEmployeeSelected);
             // 

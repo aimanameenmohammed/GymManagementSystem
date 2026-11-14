@@ -50,7 +50,7 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(991, 592);
+            this.btnClose.Location = new System.Drawing.Point(991, 579);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(195, 42);
@@ -61,10 +61,10 @@
             // ctrlCoachDetails2
             // 
             this.ctrlCoachDetails2.BackColor = System.Drawing.Color.White;
-            this.ctrlCoachDetails2.Location = new System.Drawing.Point(-6, -9);
+            this.ctrlCoachDetails2.Location = new System.Drawing.Point(0, -1);
             this.ctrlCoachDetails2.Margin = new System.Windows.Forms.Padding(4);
             this.ctrlCoachDetails2.Name = "ctrlCoachDetails2";
-            this.ctrlCoachDetails2.Size = new System.Drawing.Size(1206, 596);
+            this.ctrlCoachDetails2.Size = new System.Drawing.Size(1186, 575);
             this.ctrlCoachDetails2.TabIndex = 103;
             // 
             // frmCoachDetails
@@ -72,12 +72,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1197, 644);
+            this.ClientSize = new System.Drawing.Size(1197, 629);
             this.Controls.Add(this.ctrlCoachDetails2);
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCoachDetails";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Coach Details";
             this.ResumeLayout(false);
 
         }

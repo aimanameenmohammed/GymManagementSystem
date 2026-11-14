@@ -51,13 +51,13 @@
             this.guna2Panel1.Location = new System.Drawing.Point(4, 4);
             this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1197, 657);
+            this.guna2Panel1.Size = new System.Drawing.Size(1192, 657);
             this.guna2Panel1.TabIndex = 0;
             // 
             // ctrlCoachDetails1
             // 
             this.ctrlCoachDetails1.BackColor = System.Drawing.Color.White;
-            this.ctrlCoachDetails1.Location = new System.Drawing.Point(4, 75);
+            this.ctrlCoachDetails1.Location = new System.Drawing.Point(1, 75);
             this.ctrlCoachDetails1.Margin = new System.Windows.Forms.Padding(4);
             this.ctrlCoachDetails1.Name = "ctrlCoachDetails1";
             this.ctrlCoachDetails1.Size = new System.Drawing.Size(1189, 570);
@@ -75,10 +75,10 @@
             this.gbFiltering.CustomBorderColor = System.Drawing.Color.Transparent;
             this.gbFiltering.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbFiltering.ForeColor = System.Drawing.Color.Black;
-            this.gbFiltering.Location = new System.Drawing.Point(13, 9);
+            this.gbFiltering.Location = new System.Drawing.Point(9, 9);
             this.gbFiltering.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbFiltering.Name = "gbFiltering";
-            this.gbFiltering.Size = new System.Drawing.Size(1172, 65);
+            this.gbFiltering.Size = new System.Drawing.Size(1173, 65);
             this.gbFiltering.TabIndex = 3;
             this.gbFiltering.Text = "Filter";
             // 
@@ -195,7 +195,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ctrlCoachDetailsWithFiltering";
-            this.Size = new System.Drawing.Size(1208, 665);
+            this.Size = new System.Drawing.Size(1201, 665);
             this.guna2Panel1.ResumeLayout(false);
             this.gbFiltering.ResumeLayout(false);
             this.gbFiltering.PerformLayout();
