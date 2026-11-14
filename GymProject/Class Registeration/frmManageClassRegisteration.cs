@@ -125,5 +125,17 @@ namespace GymMangementSystem
                     MessageBox.Show("Class Registeration was not Deleted because it has data link to it", "Faild", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
+
+        private void btnAddClassRegisteration_Click_1(object sender, EventArgs e)
+        {
+            Form frm = new frmAddUpdateClassRegistration();
+            frm.ShowDialog();
+            _RefreshData();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

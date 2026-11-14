@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvClassRegisteration = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.MemberDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,8 +52,9 @@
             this.cbValue = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnAddClassRegisteration = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAddClassRegisteration = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClassRegisteration)).BeginInit();
             this.guna2ContextMenuStrip1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -66,45 +67,46 @@
             this.dgvClassRegisteration.AllowUserToAddRows = false;
             this.dgvClassRegisteration.AllowUserToDeleteRows = false;
             this.dgvClassRegisteration.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvClassRegisteration.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            this.dgvClassRegisteration.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvClassRegisteration.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvClassRegisteration.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvClassRegisteration.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvClassRegisteration.ColumnHeadersHeight = 30;
             this.dgvClassRegisteration.ContextMenuStrip = this.guna2ContextMenuStrip1;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvClassRegisteration.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvClassRegisteration.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvClassRegisteration.GridColor = System.Drawing.Color.Black;
-            this.dgvClassRegisteration.Location = new System.Drawing.Point(4, 206);
+            this.dgvClassRegisteration.Location = new System.Drawing.Point(5, 254);
+            this.dgvClassRegisteration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvClassRegisteration.Name = "dgvClassRegisteration";
             this.dgvClassRegisteration.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvClassRegisteration.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvClassRegisteration.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvClassRegisteration.RowHeadersVisible = false;
             this.dgvClassRegisteration.RowHeadersWidth = 51;
-            this.dgvClassRegisteration.Size = new System.Drawing.Size(1017, 298);
+            this.dgvClassRegisteration.Size = new System.Drawing.Size(1356, 351);
             this.dgvClassRegisteration.TabIndex = 0;
             this.dgvClassRegisteration.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvClassRegisteration.ThemeStyle.GridColor = System.Drawing.Color.Black;
@@ -143,7 +145,7 @@
             this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(190, 276);
+            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(216, 276);
             // 
             // MemberDetailsToolStripMenuItem
             // 
@@ -152,7 +154,7 @@
             this.MemberDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.PersonDetails_32;
             this.MemberDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MemberDetailsToolStripMenuItem.Name = "MemberDetailsToolStripMenuItem";
-            this.MemberDetailsToolStripMenuItem.Size = new System.Drawing.Size(189, 38);
+            this.MemberDetailsToolStripMenuItem.Size = new System.Drawing.Size(215, 38);
             this.MemberDetailsToolStripMenuItem.Text = "&Member Details";
             this.MemberDetailsToolStripMenuItem.Click += new System.EventHandler(this.MemberDetailsToolStripMenuItem_Click);
             // 
@@ -162,7 +164,7 @@
             this.CoachDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.coach_icon_32x32;
             this.CoachDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.CoachDetailsToolStripMenuItem.Name = "CoachDetailsToolStripMenuItem";
-            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(189, 38);
+            this.CoachDetailsToolStripMenuItem.Size = new System.Drawing.Size(215, 38);
             this.CoachDetailsToolStripMenuItem.Text = "Coach Details";
             this.CoachDetailsToolStripMenuItem.Click += new System.EventHandler(this.CoachDetailsToolStripMenuItem_Click);
             // 
@@ -173,7 +175,7 @@
             this.ClassDetailsToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.class_icon_32x32_transparent;
             this.ClassDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ClassDetailsToolStripMenuItem.Name = "ClassDetailsToolStripMenuItem";
-            this.ClassDetailsToolStripMenuItem.Size = new System.Drawing.Size(189, 38);
+            this.ClassDetailsToolStripMenuItem.Size = new System.Drawing.Size(215, 38);
             this.ClassDetailsToolStripMenuItem.Text = "Class Details";
             this.ClassDetailsToolStripMenuItem.Click += new System.EventHandler(this.ClassDetailsToolStripMenuItem_Click);
             // 
@@ -182,14 +184,14 @@
             this.UserDetailstoolStripMenuItem1.Image = global::GymMangementSystem.Properties.Resources.User_Details_32x32;
             this.UserDetailstoolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.UserDetailstoolStripMenuItem1.Name = "UserDetailstoolStripMenuItem1";
-            this.UserDetailstoolStripMenuItem1.Size = new System.Drawing.Size(189, 38);
+            this.UserDetailstoolStripMenuItem1.Size = new System.Drawing.Size(215, 38);
             this.UserDetailstoolStripMenuItem1.Text = "User Details";
             this.UserDetailstoolStripMenuItem1.Click += new System.EventHandler(this.UserDetailstoolStripMenuItem1_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(186, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(212, 6);
             // 
             // AddToolStripMenuItem1
             // 
@@ -197,7 +199,7 @@
             this.AddToolStripMenuItem1.Image = global::GymMangementSystem.Properties.Resources.AddPerson_32;
             this.AddToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.AddToolStripMenuItem1.Name = "AddToolStripMenuItem1";
-            this.AddToolStripMenuItem1.Size = new System.Drawing.Size(189, 38);
+            this.AddToolStripMenuItem1.Size = new System.Drawing.Size(215, 38);
             this.AddToolStripMenuItem1.Text = "Add ";
             this.AddToolStripMenuItem1.Click += new System.EventHandler(this.AddToolStripMenuItem1_Click);
             // 
@@ -206,7 +208,7 @@
             this.updateToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.edit_32;
             this.updateToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(189, 38);
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(215, 38);
             this.updateToolStripMenuItem.Text = "Update";
             this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
             // 
@@ -215,7 +217,7 @@
             this.deleteToolStripMenuItem.Image = global::GymMangementSystem.Properties.Resources.Delete_32;
             this.deleteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(189, 38);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(215, 38);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
@@ -224,9 +226,10 @@
             this.guna2Separator1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
             this.guna2Separator1.FillThickness = 2;
-            this.guna2Separator1.Location = new System.Drawing.Point(4, 535);
+            this.guna2Separator1.Location = new System.Drawing.Point(5, 658);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(152, 10);
+            this.guna2Separator1.Size = new System.Drawing.Size(203, 12);
             this.guna2Separator1.TabIndex = 102;
             // 
             // lblRecord
@@ -234,9 +237,10 @@
             this.lblRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblRecord.AutoSize = true;
             this.lblRecord.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecord.Location = new System.Drawing.Point(107, 508);
+            this.lblRecord.Location = new System.Drawing.Point(143, 625);
+            this.lblRecord.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRecord.Name = "lblRecord";
-            this.lblRecord.Size = new System.Drawing.Size(38, 20);
+            this.lblRecord.Size = new System.Drawing.Size(49, 25);
             this.lblRecord.TabIndex = 101;
             this.lblRecord.Text = "N/A";
             // 
@@ -245,9 +249,10 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 507);
+            this.label2.Location = new System.Drawing.Point(0, 624);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.Size = new System.Drawing.Size(110, 25);
             this.label2.TabIndex = 100;
             this.label2.Text = "#Records:";
             // 
@@ -259,16 +264,18 @@
             this.panel4.Controls.Add(this.pictureBox10);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1024, 37);
+            this.panel4.Size = new System.Drawing.Size(1365, 46);
             this.panel4.TabIndex = 110;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(44, 3);
+            this.panel1.Location = new System.Drawing.Point(59, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1, 32);
+            this.panel1.Size = new System.Drawing.Size(1, 39);
             this.panel1.TabIndex = 15;
             // 
             // lblTitle2
@@ -276,9 +283,10 @@
             this.lblTitle2.AutoSize = true;
             this.lblTitle2.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle2.ForeColor = System.Drawing.Color.White;
-            this.lblTitle2.Location = new System.Drawing.Point(51, 5);
+            this.lblTitle2.Location = new System.Drawing.Point(68, 6);
+            this.lblTitle2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle2.Name = "lblTitle2";
-            this.lblTitle2.Size = new System.Drawing.Size(190, 26);
+            this.lblTitle2.Size = new System.Drawing.Size(233, 32);
             this.lblTitle2.TabIndex = 2;
             this.lblTitle2.Text = "Class Registeration";
             // 
@@ -287,8 +295,9 @@
             this.pictureBox10.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox10.Image = global::GymMangementSystem.Properties.Resources.ClassRegesterationWhite;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(42, 37);
+            this.pictureBox10.Size = new System.Drawing.Size(56, 46);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 1;
             this.pictureBox10.TabStop = false;
@@ -309,9 +318,10 @@
             "Class Registeration ID",
             "Member Name",
             "Class Name"});
-            this.cbValue.Location = new System.Drawing.Point(80, 164);
+            this.cbValue.Location = new System.Drawing.Point(107, 202);
+            this.cbValue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbValue.Name = "cbValue";
-            this.cbValue.Size = new System.Drawing.Size(237, 36);
+            this.cbValue.Size = new System.Drawing.Size(315, 36);
             this.cbValue.StartIndex = 0;
             this.cbValue.TabIndex = 114;
             this.cbValue.SelectedIndexChanged += new System.EventHandler(this.cbValue_SelectedIndexChanged);
@@ -320,10 +330,9 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(6, 173);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(8, 213);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(75, 18);
+            this.label9.Size = new System.Drawing.Size(91, 22);
             this.label9.TabIndex = 113;
             this.label9.Text = "Filter By:";
             // 
@@ -340,58 +349,99 @@
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold);
             this.txtSearch.ForeColor = System.Drawing.Color.Black;
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearch.Location = new System.Drawing.Point(324, 164);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSearch.Location = new System.Drawing.Point(432, 202);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PlaceholderText = "Search...";
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(217, 37);
+            this.txtSearch.Size = new System.Drawing.Size(289, 46);
             this.txtSearch.TabIndex = 112;
             this.txtSearch.Visible = false;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             this.txtSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_KeyPress);
             // 
-            // btnAddClassRegisteration
-            // 
-            this.btnAddClassRegisteration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAddClassRegisteration.BackColor = System.Drawing.Color.Transparent;
-            this.btnAddClassRegisteration.BackgroundImage = global::GymMangementSystem.Properties.Resources.ClassRegesteration;
-            this.btnAddClassRegisteration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAddClassRegisteration.Location = new System.Drawing.Point(964, 165);
-            this.btnAddClassRegisteration.Name = "btnAddClassRegisteration";
-            this.btnAddClassRegisteration.Size = new System.Drawing.Size(56, 38);
-            this.btnAddClassRegisteration.TabIndex = 109;
-            this.btnAddClassRegisteration.UseVisualStyleBackColor = false;
-            this.btnAddClassRegisteration.Click += new System.EventHandler(this.btnAddClassRegisteration_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::GymMangementSystem.Properties.Resources.ClassRegesteration;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 41);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 50);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1020, 126);
+            this.pictureBox1.Size = new System.Drawing.Size(1360, 155);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 111;
             this.pictureBox1.TabStop = false;
             // 
+            // btnClose
+            // 
+            this.btnClose.BorderColor = System.Drawing.Color.Gainsboro;
+            this.btnClose.BorderRadius = 5;
+            this.btnClose.BorderThickness = 1;
+            this.btnClose.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClose.FillColor = System.Drawing.Color.Transparent;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
+            this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
+            this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnClose.Location = new System.Drawing.Point(1197, 624);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(156, 37);
+            this.btnClose.TabIndex = 146;
+            this.btnClose.Text = "Close";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnAddClassRegisteration
+            // 
+            this.btnAddClassRegisteration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAddClassRegisteration.BorderColor = System.Drawing.Color.Gainsboro;
+            this.btnAddClassRegisteration.BorderRadius = 5;
+            this.btnAddClassRegisteration.BorderThickness = 1;
+            this.btnAddClassRegisteration.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            this.btnAddClassRegisteration.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddClassRegisteration.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddClassRegisteration.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddClassRegisteration.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddClassRegisteration.FillColor = System.Drawing.Color.Transparent;
+            this.btnAddClassRegisteration.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddClassRegisteration.ForeColor = System.Drawing.Color.Black;
+            this.btnAddClassRegisteration.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            this.btnAddClassRegisteration.Image = global::GymMangementSystem.Properties.Resources.ClassRegesteration;
+            this.btnAddClassRegisteration.ImageOffset = new System.Drawing.Point(1, 1);
+            this.btnAddClassRegisteration.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnAddClassRegisteration.Location = new System.Drawing.Point(1269, 206);
+            this.btnAddClassRegisteration.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddClassRegisteration.Name = "btnAddClassRegisteration";
+            this.btnAddClassRegisteration.Size = new System.Drawing.Size(92, 42);
+            this.btnAddClassRegisteration.TabIndex = 147;
+            this.btnAddClassRegisteration.Click += new System.EventHandler(this.btnAddClassRegisteration_Click_1);
+            // 
             // frmManageClassRegisteration
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1024, 543);
+            this.ClientSize = new System.Drawing.Size(1365, 668);
+            this.Controls.Add(this.btnAddClassRegisteration);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.cbValue);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.btnAddClassRegisteration);
             this.Controls.Add(this.guna2Separator1);
             this.Controls.Add(this.lblRecord);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvClassRegisteration);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmManageClassRegisteration";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmManageClassRegisteration_Load);
@@ -412,7 +462,6 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private System.Windows.Forms.Label lblRecord;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnAddClassRegisteration;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblTitle2;
@@ -430,5 +479,7 @@
         private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem UserDetailstoolStripMenuItem1;
+        private Guna.UI2.WinForms.Guna2Button btnClose;
+        private Guna.UI2.WinForms.Guna2Button btnAddClassRegisteration;
     }
 }
