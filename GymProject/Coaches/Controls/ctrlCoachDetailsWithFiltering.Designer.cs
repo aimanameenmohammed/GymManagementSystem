@@ -43,14 +43,15 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BorderColor = System.Drawing.Color.Silver;
-            this.guna2Panel1.BorderRadius = 9;
+            this.guna2Panel1.BorderRadius = 5;
             this.guna2Panel1.BorderThickness = 1;
             this.guna2Panel1.Controls.Add(this.gbFiltering);
             this.guna2Panel1.Controls.Add(this.ctrlCoachDetails1);
             this.guna2Panel1.CustomBorderColor = System.Drawing.Color.Silver;
-            this.guna2Panel1.Location = new System.Drawing.Point(3, 3);
+            this.guna2Panel1.Location = new System.Drawing.Point(4, 4);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(968, 529);
+            this.guna2Panel1.Size = new System.Drawing.Size(1197, 657);
             this.guna2Panel1.TabIndex = 0;
             // 
             // gbFiltering
@@ -65,10 +66,10 @@
             this.gbFiltering.CustomBorderColor = System.Drawing.Color.Transparent;
             this.gbFiltering.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbFiltering.ForeColor = System.Drawing.Color.Black;
-            this.gbFiltering.Location = new System.Drawing.Point(7, 7);
-            this.gbFiltering.Margin = new System.Windows.Forms.Padding(2);
+            this.gbFiltering.Location = new System.Drawing.Point(13, 9);
+            this.gbFiltering.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gbFiltering.Name = "gbFiltering";
-            this.gbFiltering.Size = new System.Drawing.Size(954, 53);
+            this.gbFiltering.Size = new System.Drawing.Size(1172, 65);
             this.gbFiltering.TabIndex = 3;
             this.gbFiltering.Text = "Filter";
             // 
@@ -88,12 +89,12 @@
             this.txtFiltering.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtFiltering.InputType = GymMangementSystem.MyTextBox.TextType.Numeric;
             this.txtFiltering.IsRequired = true;
-            this.txtFiltering.Location = new System.Drawing.Point(388, 14);
-            this.txtFiltering.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFiltering.Location = new System.Drawing.Point(517, 17);
+            this.txtFiltering.Margin = new System.Windows.Forms.Padding(5);
             this.txtFiltering.Name = "txtFiltering";
             this.txtFiltering.PlaceholderText = "Search...";
             this.txtFiltering.SelectedText = "";
-            this.txtFiltering.Size = new System.Drawing.Size(233, 28);
+            this.txtFiltering.Size = new System.Drawing.Size(311, 34);
             this.txtFiltering.TabIndex = 90;
             this.txtFiltering.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFiltering_KeyPress);
             // 
@@ -114,10 +115,10 @@
             this.btnAddNewCoach.Image = global::GymMangementSystem.Properties.Resources.AddUser;
             this.btnAddNewCoach.ImageOffset = new System.Drawing.Point(1, 1);
             this.btnAddNewCoach.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnAddNewCoach.Location = new System.Drawing.Point(752, 13);
-            this.btnAddNewCoach.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddNewCoach.Location = new System.Drawing.Point(1003, 16);
+            this.btnAddNewCoach.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddNewCoach.Name = "btnAddNewCoach";
-            this.btnAddNewCoach.Size = new System.Drawing.Size(62, 29);
+            this.btnAddNewCoach.Size = new System.Drawing.Size(83, 36);
             this.btnAddNewCoach.TabIndex = 89;
             this.btnAddNewCoach.Click += new System.EventHandler(this.btnAddNewCoach_Click);
             // 
@@ -138,10 +139,10 @@
             this.btnFind.Image = global::GymMangementSystem.Properties.Resources.SearchPerson;
             this.btnFind.ImageOffset = new System.Drawing.Point(1, 1);
             this.btnFind.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnFind.Location = new System.Drawing.Point(673, 13);
-            this.btnFind.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFind.Location = new System.Drawing.Point(897, 16);
+            this.btnFind.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(62, 29);
+            this.btnFind.Size = new System.Drawing.Size(83, 36);
             this.btnFind.TabIndex = 88;
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
@@ -159,10 +160,10 @@
             this.cmFilteringType.Items.AddRange(new object[] {
             "Coach ID",
             "National No"});
-            this.cmFilteringType.Location = new System.Drawing.Point(181, 10);
-            this.cmFilteringType.Margin = new System.Windows.Forms.Padding(2);
+            this.cmFilteringType.Location = new System.Drawing.Point(241, 12);
+            this.cmFilteringType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmFilteringType.Name = "cmFilteringType";
-            this.cmFilteringType.Size = new System.Drawing.Size(200, 36);
+            this.cmFilteringType.Size = new System.Drawing.Size(265, 36);
             this.cmFilteringType.StartIndex = 0;
             this.cmFilteringType.TabIndex = 86;
             this.cmFilteringType.SelectedIndexChanged += new System.EventHandler(this.cmFilteringType_SelectedIndexChanged);
@@ -171,29 +172,30 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(96, 18);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(128, 22);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 18);
+            this.label9.Size = new System.Drawing.Size(78, 22);
             this.label9.TabIndex = 85;
             this.label9.Text = "FindBy:";
             // 
             // ctrlCoachDetails1
             // 
             this.ctrlCoachDetails1.BackColor = System.Drawing.Color.White;
-            this.ctrlCoachDetails1.Location = new System.Drawing.Point(1, 56);
+            this.ctrlCoachDetails1.Location = new System.Drawing.Point(-5, 69);
+            this.ctrlCoachDetails1.Margin = new System.Windows.Forms.Padding(5);
             this.ctrlCoachDetails1.Name = "ctrlCoachDetails1";
-            this.ctrlCoachDetails1.Size = new System.Drawing.Size(961, 470);
+            this.ctrlCoachDetails1.Size = new System.Drawing.Size(1210, 583);
             this.ctrlCoachDetails1.TabIndex = 1;
             // 
             // ctrlCoachDetailsWithFiltering
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.guna2Panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ctrlCoachDetailsWithFiltering";
-            this.Size = new System.Drawing.Size(974, 536);
+            this.Size = new System.Drawing.Size(1208, 665);
             this.guna2Panel1.ResumeLayout(false);
             this.gbFiltering.ResumeLayout(false);
             this.gbFiltering.PerformLayout();
