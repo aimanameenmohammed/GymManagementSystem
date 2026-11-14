@@ -109,7 +109,7 @@ namespace GymMangementSystem
         {
             cbOptions.SelectedIndex = 0;
             tbSearch.Text = PersonID.ToString();
-            uctPersonDetails1.LoadPersonInfo(PersonID);
+            FIndNow();
         }
 
         private void cbOptions_SelectedIndexChanged(object sender, EventArgs e)

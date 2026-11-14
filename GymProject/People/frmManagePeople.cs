@@ -10,6 +10,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace GymMangementSystem
 {
@@ -57,6 +58,9 @@ namespace GymMangementSystem
             FilteringName.Clear();
             //FilteringName.Append("");
 
+
+
+
             switch (cmSelectTypeOfFiltering.Text)
             {
                 
@@ -74,6 +78,9 @@ namespace GymMangementSystem
                     FilteringName.Append("ID");
                     break;
                 case "Nationality":
+                    FilteringName.Append("Country");
+                    break;
+                case "Country Name":
                     FilteringName.Append("Country");
                     break;
 
