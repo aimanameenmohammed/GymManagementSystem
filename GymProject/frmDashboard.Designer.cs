@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle131 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle132 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle133 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle134 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle135 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle136 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle137 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle138 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle139 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle140 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -202,7 +202,7 @@
             this.btnSettings.Image = global::GymMangementSystem.Properties.Resources.SettingsIcon;
             this.btnSettings.ImageOffset = new System.Drawing.Point(-40, 0);
             this.btnSettings.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnSettings.Location = new System.Drawing.Point(9, 982);
+            this.btnSettings.Location = new System.Drawing.Point(9, 971);
             this.btnSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(317, 62);
@@ -228,7 +228,7 @@
             this.guna2Button2.Image = global::GymMangementSystem.Properties.Resources.Manage_employees;
             this.guna2Button2.ImageOffset = new System.Drawing.Point(-18, 0);
             this.guna2Button2.ImageSize = new System.Drawing.Size(65, 39);
-            this.guna2Button2.Location = new System.Drawing.Point(9, 902);
+            this.guna2Button2.Location = new System.Drawing.Point(9, 891);
             this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(317, 76);
@@ -253,7 +253,7 @@
             this.guna2Button1.Image = global::GymMangementSystem.Properties.Resources.ClassRegesterationWhite;
             this.guna2Button1.ImageOffset = new System.Drawing.Point(-20, 0);
             this.guna2Button1.ImageSize = new System.Drawing.Size(60, 55);
-            this.guna2Button1.Location = new System.Drawing.Point(9, 640);
+            this.guna2Button1.Location = new System.Drawing.Point(9, 629);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(319, 62);
@@ -280,7 +280,7 @@
             this.btnSubscriPtions.Image = global::GymMangementSystem.Properties.Resources.Subscriptions;
             this.btnSubscriPtions.ImageOffset = new System.Drawing.Point(-25, 0);
             this.btnSubscriPtions.ImageSize = new System.Drawing.Size(43, 34);
-            this.btnSubscriPtions.Location = new System.Drawing.Point(9, 454);
+            this.btnSubscriPtions.Location = new System.Drawing.Point(9, 443);
             this.btnSubscriPtions.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSubscriPtions.Name = "btnSubscriPtions";
             this.btnSubscriPtions.Size = new System.Drawing.Size(319, 62);
@@ -365,7 +365,7 @@
             this.btnManageEmployees.Image = global::GymMangementSystem.Properties.Resources.Manage_employees;
             this.btnManageEmployees.ImageOffset = new System.Drawing.Point(-12, 0);
             this.btnManageEmployees.ImageSize = new System.Drawing.Size(65, 39);
-            this.btnManageEmployees.Location = new System.Drawing.Point(9, 764);
+            this.btnManageEmployees.Location = new System.Drawing.Point(9, 753);
             this.btnManageEmployees.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageEmployees.Name = "btnManageEmployees";
             this.btnManageEmployees.Size = new System.Drawing.Size(317, 62);
@@ -391,7 +391,7 @@
             this.btnMangePayment.Image = global::GymMangementSystem.Properties.Resources.manage_payments;
             this.btnMangePayment.ImageOffset = new System.Drawing.Point(-15, 0);
             this.btnMangePayment.ImageSize = new System.Drawing.Size(55, 39);
-            this.btnMangePayment.Location = new System.Drawing.Point(9, 698);
+            this.btnMangePayment.Location = new System.Drawing.Point(9, 687);
             this.btnMangePayment.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMangePayment.Name = "btnMangePayment";
             this.btnMangePayment.Size = new System.Drawing.Size(317, 62);
@@ -417,7 +417,7 @@
             this.btnManageClasses.Image = global::GymMangementSystem.Properties.Resources.manage_classes;
             this.btnManageClasses.ImageOffset = new System.Drawing.Point(6, 0);
             this.btnManageClasses.ImageSize = new System.Drawing.Size(65, 39);
-            this.btnManageClasses.Location = new System.Drawing.Point(9, 574);
+            this.btnManageClasses.Location = new System.Drawing.Point(9, 563);
             this.btnManageClasses.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageClasses.Name = "btnManageClasses";
             this.btnManageClasses.Size = new System.Drawing.Size(317, 62);
@@ -443,7 +443,7 @@
             this.btnManageTrainers.Image = global::GymMangementSystem.Properties.Resources.manageTrainers;
             this.btnManageTrainers.ImageOffset = new System.Drawing.Point(-19, 0);
             this.btnManageTrainers.ImageSize = new System.Drawing.Size(65, 39);
-            this.btnManageTrainers.Location = new System.Drawing.Point(9, 510);
+            this.btnManageTrainers.Location = new System.Drawing.Point(9, 499);
             this.btnManageTrainers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageTrainers.Name = "btnManageTrainers";
             this.btnManageTrainers.Size = new System.Drawing.Size(319, 62);
@@ -469,7 +469,7 @@
             this.btnManageMember.Image = global::GymMangementSystem.Properties.Resources.manageMembers;
             this.btnManageMember.ImageOffset = new System.Drawing.Point(-14, 0);
             this.btnManageMember.ImageSize = new System.Drawing.Size(73, 42);
-            this.btnManageMember.Location = new System.Drawing.Point(9, 396);
+            this.btnManageMember.Location = new System.Drawing.Point(9, 385);
             this.btnManageMember.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageMember.Name = "btnManageMember";
             this.btnManageMember.Size = new System.Drawing.Size(319, 62);
@@ -495,7 +495,7 @@
             this.btnManageUser.Image = global::GymMangementSystem.Properties.Resources.manageUsers;
             this.btnManageUser.ImageOffset = new System.Drawing.Point(-23, 0);
             this.btnManageUser.ImageSize = new System.Drawing.Size(83, 42);
-            this.btnManageUser.Location = new System.Drawing.Point(9, 334);
+            this.btnManageUser.Location = new System.Drawing.Point(9, 323);
             this.btnManageUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnManageUser.Name = "btnManageUser";
             this.btnManageUser.Size = new System.Drawing.Size(319, 62);
@@ -521,7 +521,7 @@
             this.btnManagePeople.Image = global::GymMangementSystem.Properties.Resources.managepeople;
             this.btnManagePeople.ImageOffset = new System.Drawing.Point(-21, 0);
             this.btnManagePeople.ImageSize = new System.Drawing.Size(75, 40);
-            this.btnManagePeople.Location = new System.Drawing.Point(9, 276);
+            this.btnManagePeople.Location = new System.Drawing.Point(9, 265);
             this.btnManagePeople.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnManagePeople.Name = "btnManagePeople";
             this.btnManagePeople.Size = new System.Drawing.Size(319, 62);
@@ -613,7 +613,7 @@
             this.guna2Button3.Image = global::GymMangementSystem.Properties.Resources.EmployeeAttendance;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(-4, 0);
             this.guna2Button3.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2Button3.Location = new System.Drawing.Point(9, 821);
+            this.guna2Button3.Location = new System.Drawing.Point(9, 810);
             this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(317, 82);
@@ -636,7 +636,7 @@
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(244)))), ((int)(((byte)(250)))));
             this.guna2Panel3.Location = new System.Drawing.Point(333, 0);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(5);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1591, 79);
             this.guna2Panel3.TabIndex = 1;
@@ -728,7 +728,7 @@
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1924, 1055);
             this.panel1.TabIndex = 9;
@@ -750,7 +750,7 @@
             this.guna2Panel9.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel9.FillColor = System.Drawing.Color.White;
             this.guna2Panel9.Location = new System.Drawing.Point(388, 847);
-            this.guna2Panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel9.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel9.Name = "guna2Panel9";
             this.guna2Panel9.Size = new System.Drawing.Size(1487, 183);
             this.guna2Panel9.TabIndex = 18;
@@ -933,7 +933,7 @@
             this.guna2Panel8.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel8.FillColor = System.Drawing.Color.White;
             this.guna2Panel8.Location = new System.Drawing.Point(1106, 399);
-            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(768, 405);
             this.guna2Panel8.TabIndex = 90;
@@ -943,7 +943,7 @@
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = global::GymMangementSystem.Properties.Resources.Secheduling;
             this.pictureBox9.Location = new System.Drawing.Point(8, 5);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(48, 39);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -984,18 +984,18 @@
             this.dgvClassList.AllowUserToAddRows = false;
             this.dgvClassList.AllowUserToDeleteRows = false;
             this.dgvClassList.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle131.BackColor = System.Drawing.Color.White;
-            this.dgvClassList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle131;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvClassList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvClassList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
             this.dgvClassList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle132.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle132.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle132.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle132.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle132.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle132.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle132.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvClassList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle132;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvClassList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvClassList.ColumnHeadersHeight = 35;
             this.dgvClassList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvClassList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -1004,36 +1004,36 @@
             this.StartTime,
             this.EndTime,
             this.Capacity});
-            dataGridViewCellStyle133.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle133.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle133.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle133.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle133.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle133.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle133.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvClassList.DefaultCellStyle = dataGridViewCellStyle133;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvClassList.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvClassList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvClassList.Location = new System.Drawing.Point(8, 50);
             this.dgvClassList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvClassList.Name = "dgvClassList";
             this.dgvClassList.ReadOnly = true;
             this.dgvClassList.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle134.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle134.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle134.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle134.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle134.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle134.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle134.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvClassList.RowHeadersDefaultCellStyle = dataGridViewCellStyle134;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvClassList.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvClassList.RowHeadersVisible = false;
             this.dgvClassList.RowHeadersWidth = 65;
-            dataGridViewCellStyle135.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle135.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle135.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle135.SelectionBackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle135.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvClassList.RowsDefaultCellStyle = dataGridViewCellStyle135;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvClassList.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvClassList.RowTemplate.Height = 35;
             this.dgvClassList.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvClassList.Size = new System.Drawing.Size(757, 345);
@@ -1107,7 +1107,7 @@
             this.guna2Panel7.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel7.FillColor = System.Drawing.Color.White;
             this.guna2Panel7.Location = new System.Drawing.Point(387, 399);
-            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(711, 405);
             this.guna2Panel7.TabIndex = 18;
@@ -1146,7 +1146,7 @@
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = global::GymMangementSystem.Properties.Resources.Capacity;
             this.pictureBox8.Location = new System.Drawing.Point(4, 4);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(69, 41);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1158,18 +1158,18 @@
             this.dgvShowMembersInLast15DaysList.AllowUserToAddRows = false;
             this.dgvShowMembersInLast15DaysList.AllowUserToDeleteRows = false;
             this.dgvShowMembersInLast15DaysList.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle136.BackColor = System.Drawing.Color.White;
-            this.dgvShowMembersInLast15DaysList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle136;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            this.dgvShowMembersInLast15DaysList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvShowMembersInLast15DaysList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
             this.dgvShowMembersInLast15DaysList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle137.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle137.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle137.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle137.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle137.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
-            dataGridViewCellStyle137.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle137.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvShowMembersInLast15DaysList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle137;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvShowMembersInLast15DaysList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgvShowMembersInLast15DaysList.ColumnHeadersHeight = 35;
             this.dgvShowMembersInLast15DaysList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvShowMembersInLast15DaysList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -1177,36 +1177,36 @@
             this.Membership,
             this.Status,
             this.JoinDate});
-            dataGridViewCellStyle138.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle138.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle138.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle138.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle138.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle138.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle138.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvShowMembersInLast15DaysList.DefaultCellStyle = dataGridViewCellStyle138;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvShowMembersInLast15DaysList.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgvShowMembersInLast15DaysList.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvShowMembersInLast15DaysList.Location = new System.Drawing.Point(8, 50);
             this.dgvShowMembersInLast15DaysList.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvShowMembersInLast15DaysList.Name = "dgvShowMembersInLast15DaysList";
             this.dgvShowMembersInLast15DaysList.ReadOnly = true;
             this.dgvShowMembersInLast15DaysList.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle139.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle139.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle139.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle139.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle139.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle139.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle139.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvShowMembersInLast15DaysList.RowHeadersDefaultCellStyle = dataGridViewCellStyle139;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvShowMembersInLast15DaysList.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvShowMembersInLast15DaysList.RowHeadersVisible = false;
             this.dgvShowMembersInLast15DaysList.RowHeadersWidth = 65;
-            dataGridViewCellStyle140.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle140.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle140.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle140.SelectionBackColor = System.Drawing.Color.LightSkyBlue;
-            dataGridViewCellStyle140.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvShowMembersInLast15DaysList.RowsDefaultCellStyle = dataGridViewCellStyle140;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.LightSkyBlue;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvShowMembersInLast15DaysList.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvShowMembersInLast15DaysList.RowTemplate.Height = 35;
             this.dgvShowMembersInLast15DaysList.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvShowMembersInLast15DaysList.Size = new System.Drawing.Size(700, 345);
@@ -1271,7 +1271,7 @@
             this.guna2Panel6.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel6.FillColor = System.Drawing.Color.White;
             this.guna2Panel6.Location = new System.Drawing.Point(1544, 239);
-            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(300, 123);
             this.guna2Panel6.TabIndex = 16;
@@ -1320,7 +1320,7 @@
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = global::GymMangementSystem.Properties.Resources.Time;
             this.pictureBox7.Location = new System.Drawing.Point(20, 12);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(76, 73);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1340,7 +1340,7 @@
             this.guna2Panel5.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel5.FillColor = System.Drawing.Color.White;
             this.guna2Panel5.Location = new System.Drawing.Point(1170, 239);
-            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(300, 123);
             this.guna2Panel5.TabIndex = 16;
@@ -1389,7 +1389,7 @@
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::GymMangementSystem.Properties.Resources.Secheduling;
             this.pictureBox6.Location = new System.Drawing.Point(27, 12);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(75, 63);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1409,7 +1409,7 @@
             this.guna2Panel4.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel4.FillColor = System.Drawing.Color.White;
             this.guna2Panel4.Location = new System.Drawing.Point(800, 239);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(300, 123);
             this.guna2Panel4.TabIndex = 16;
@@ -1458,7 +1458,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::GymMangementSystem.Properties.Resources.Coach;
             this.pictureBox5.Location = new System.Drawing.Point(4, 10);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(99, 75);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1478,7 +1478,7 @@
             this.guna2Panel2.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel2.FillColor = System.Drawing.Color.White;
             this.guna2Panel2.Location = new System.Drawing.Point(417, 239);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(300, 123);
             this.guna2Panel2.TabIndex = 15;
@@ -1536,7 +1536,7 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::GymMangementSystem.Properties.Resources.Capacity;
             this.pictureBox4.Location = new System.Drawing.Point(7, 15);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(76, 73);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1548,7 +1548,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox2.Image = global::GymMangementSystem.Properties.Resources.Secheduling;
             this.pictureBox2.Location = new System.Drawing.Point(1415, 95);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1558,7 +1558,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(-31, -57);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 62);
             this.pictureBox1.TabIndex = 12;
@@ -1580,7 +1580,7 @@
             // guna2VSeparator1
             // 
             this.guna2VSeparator1.Location = new System.Drawing.Point(1725, 87);
-            this.guna2VSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2VSeparator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2VSeparator1.Name = "guna2VSeparator1";
             this.guna2VSeparator1.Size = new System.Drawing.Size(13, 50);
             this.guna2VSeparator1.TabIndex = 10;
@@ -1614,7 +1614,7 @@
             // 
             this.pictureBox3.Image = global::GymMangementSystem.Properties.Resources.Time;
             this.pictureBox3.Location = new System.Drawing.Point(1751, 86);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(83, 48);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

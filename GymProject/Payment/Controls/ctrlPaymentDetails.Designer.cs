@@ -173,7 +173,7 @@
             this.lnkShowSubscriptionDetails.Enabled = false;
             this.lnkShowSubscriptionDetails.Font = new System.Drawing.Font("Segoe UI Emoji", 13.8F);
             this.lnkShowSubscriptionDetails.ForeColor = System.Drawing.SystemColors.Window;
-            this.lnkShowSubscriptionDetails.Location = new System.Drawing.Point(884, 322);
+            this.lnkShowSubscriptionDetails.Location = new System.Drawing.Point(878, 322);
             this.lnkShowSubscriptionDetails.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkShowSubscriptionDetails.Name = "lnkShowSubscriptionDetails";
             this.lnkShowSubscriptionDetails.Size = new System.Drawing.Size(279, 31);
