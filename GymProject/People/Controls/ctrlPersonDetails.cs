@@ -15,8 +15,8 @@ namespace GymMangementSystem
     {
         public int PersonID
         {
-            get;private set;
-        }
+            get; private set;
+        } = -1;
        
 
         public clsPeople PersonInfo
