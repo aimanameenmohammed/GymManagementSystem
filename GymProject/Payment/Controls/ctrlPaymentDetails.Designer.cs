@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.lblPaymentAmount = new System.Windows.Forms.Label();
+            this.lblSubscriptionID = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lnkShowSubscriptionDetails = new System.Windows.Forms.LinkLabel();
             this.guna2CirclePictureBox10 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,10 +61,8 @@
             this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.lblPlanName = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox8 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.lblSubscriptionID = new System.Windows.Forms.Label();
-            this.lblPaymentAmount = new System.Windows.Forms.Label();
             this.guna2GroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
@@ -72,7 +73,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GroupBox1
@@ -114,13 +114,56 @@
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.Size = new System.Drawing.Size(1167, 360);
             this.guna2GroupBox1.TabIndex = 0;
             this.guna2GroupBox1.Text = "Payment Details";
             this.guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.guna2GroupBox1.Click += new System.EventHandler(this.guna2GroupBox1_Click);
+            // 
+            // lblPaymentAmount
+            // 
+            this.lblPaymentAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblPaymentAmount.AutoSize = true;
+            this.lblPaymentAmount.BackColor = System.Drawing.Color.Transparent;
+            this.lblPaymentAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
+            this.lblPaymentAmount.ForeColor = System.Drawing.Color.Black;
+            this.lblPaymentAmount.Location = new System.Drawing.Point(232, 239);
+            this.lblPaymentAmount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPaymentAmount.Name = "lblPaymentAmount";
+            this.lblPaymentAmount.Size = new System.Drawing.Size(66, 22);
+            this.lblPaymentAmount.TabIndex = 130;
+            this.lblPaymentAmount.Text = "[????]";
+            // 
+            // lblSubscriptionID
+            // 
+            this.lblSubscriptionID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblSubscriptionID.AutoSize = true;
+            this.lblSubscriptionID.BackColor = System.Drawing.Color.Transparent;
+            this.lblSubscriptionID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
+            this.lblSubscriptionID.ForeColor = System.Drawing.Color.Black;
+            this.lblSubscriptionID.Location = new System.Drawing.Point(230, 196);
+            this.lblSubscriptionID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSubscriptionID.Name = "lblSubscriptionID";
+            this.lblSubscriptionID.Size = new System.Drawing.Size(66, 22);
+            this.lblSubscriptionID.TabIndex = 129;
+            this.lblSubscriptionID.Text = "[????]";
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.guna2CirclePictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox3.Image = global::GymMangementSystem.Properties.Resources.Money;
+            this.guna2CirclePictureBox3.ImageRotate = 0F;
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(189, 312);
+            this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(39, 40);
+            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox3.TabIndex = 128;
+            this.guna2CirclePictureBox3.TabStop = false;
             // 
             // lnkShowSubscriptionDetails
             // 
@@ -145,7 +188,7 @@
             this.guna2CirclePictureBox10.Image = global::GymMangementSystem.Properties.Resources.PaymentDetails;
             this.guna2CirclePictureBox10.ImageRotate = 0F;
             this.guna2CirclePictureBox10.Location = new System.Drawing.Point(4, -11);
-            this.guna2CirclePictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox10.Name = "guna2CirclePictureBox10";
             this.guna2CirclePictureBox10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox10.Size = new System.Drawing.Size(52, 61);
@@ -160,7 +203,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(64, 145);
+            this.label4.Location = new System.Drawing.Point(65, 145);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 27);
@@ -174,7 +217,7 @@
             this.lblMemberName.BackColor = System.Drawing.Color.Transparent;
             this.lblMemberName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
             this.lblMemberName.ForeColor = System.Drawing.Color.Black;
-            this.lblMemberName.Location = new System.Drawing.Point(228, 103);
+            this.lblMemberName.Location = new System.Drawing.Point(229, 103);
             this.lblMemberName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMemberName.Name = "lblMemberName";
             this.lblMemberName.Size = new System.Drawing.Size(66, 22);
@@ -188,7 +231,7 @@
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(25, 97);
+            this.label17.Location = new System.Drawing.Point(26, 97);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(165, 27);
@@ -216,7 +259,7 @@
             this.guna2CirclePictureBox7.Image = global::GymMangementSystem.Properties.Resources.ClassID;
             this.guna2CirclePictureBox7.ImageRotate = 0F;
             this.guna2CirclePictureBox7.Location = new System.Drawing.Point(188, 186);
-            this.guna2CirclePictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox7.Name = "guna2CirclePictureBox7";
             this.guna2CirclePictureBox7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox7.Size = new System.Drawing.Size(42, 40);
@@ -245,7 +288,7 @@
             this.guna2CirclePictureBox6.Image = global::GymMangementSystem.Properties.Resources.Money;
             this.guna2CirclePictureBox6.ImageRotate = 0F;
             this.guna2CirclePictureBox6.Location = new System.Drawing.Point(188, 228);
-            this.guna2CirclePictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
             this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox6.Size = new System.Drawing.Size(45, 43);
@@ -288,7 +331,7 @@
             this.guna2CirclePictureBox5.Image = global::GymMangementSystem.Properties.Resources.Money;
             this.guna2CirclePictureBox5.ImageRotate = 0F;
             this.guna2CirclePictureBox5.Location = new System.Drawing.Point(189, 273);
-            this.guna2CirclePictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
             this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox5.Size = new System.Drawing.Size(39, 40);
@@ -359,7 +402,7 @@
             this.guna2CirclePictureBox2.Image = global::GymMangementSystem.Properties.Resources.SechedulingCircle;
             this.guna2CirclePictureBox2.ImageRotate = 0F;
             this.guna2CirclePictureBox2.Location = new System.Drawing.Point(786, 189);
-            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.Size = new System.Drawing.Size(35, 39);
@@ -402,7 +445,7 @@
             this.lblPaymentD.BackColor = System.Drawing.Color.Transparent;
             this.lblPaymentD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
             this.lblPaymentD.ForeColor = System.Drawing.Color.Black;
-            this.lblPaymentD.Location = new System.Drawing.Point(228, 56);
+            this.lblPaymentD.Location = new System.Drawing.Point(229, 56);
             this.lblPaymentD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPaymentD.Name = "lblPaymentD";
             this.lblPaymentD.Size = new System.Drawing.Size(66, 22);
@@ -416,7 +459,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(57, 53);
+            this.label3.Location = new System.Drawing.Point(58, 53);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 27);
@@ -458,7 +501,7 @@
             this.guna2CirclePictureBox11.Image = global::GymMangementSystem.Properties.Resources.StatusCircle;
             this.guna2CirclePictureBox11.ImageRotate = 0F;
             this.guna2CirclePictureBox11.Location = new System.Drawing.Point(786, 276);
-            this.guna2CirclePictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox11.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
             this.guna2CirclePictureBox11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox11.Size = new System.Drawing.Size(37, 48);
@@ -473,7 +516,7 @@
             this.guna2CirclePictureBox1.Image = global::GymMangementSystem.Properties.Resources.PersonCircle;
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(786, 233);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(35, 42);
@@ -487,8 +530,8 @@
             this.guna2CirclePictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox4.Image = global::GymMangementSystem.Properties.Resources.ClassID;
             this.guna2CirclePictureBox4.ImageRotate = 0F;
-            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(186, 49);
-            this.guna2CirclePictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(187, 49);
+            this.guna2CirclePictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
             this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox4.Size = new System.Drawing.Size(43, 39);
@@ -502,8 +545,8 @@
             this.guna2CirclePictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox9.Image = global::GymMangementSystem.Properties.Resources.PersonCircle;
             this.guna2CirclePictureBox9.ImageRotate = 0F;
-            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(190, 96);
-            this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(191, 96);
+            this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
             this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox9.Size = new System.Drawing.Size(36, 37);
@@ -518,7 +561,7 @@
             this.lblPlanName.BackColor = System.Drawing.Color.Transparent;
             this.lblPlanName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
             this.lblPlanName.ForeColor = System.Drawing.Color.Black;
-            this.lblPlanName.Location = new System.Drawing.Point(228, 150);
+            this.lblPlanName.Location = new System.Drawing.Point(229, 150);
             this.lblPlanName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlanName.Name = "lblPlanName";
             this.lblPlanName.Size = new System.Drawing.Size(66, 22);
@@ -531,8 +574,8 @@
             this.guna2CirclePictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox8.Image = global::GymMangementSystem.Properties.Resources.SubscriptionName;
             this.guna2CirclePictureBox8.ImageRotate = 0F;
-            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(183, 133);
-            this.guna2CirclePictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CirclePictureBox8.Location = new System.Drawing.Point(184, 133);
+            this.guna2CirclePictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox8.Name = "guna2CirclePictureBox8";
             this.guna2CirclePictureBox8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox8.Size = new System.Drawing.Size(47, 53);
@@ -540,60 +583,18 @@
             this.guna2CirclePictureBox8.TabIndex = 81;
             this.guna2CirclePictureBox8.TabStop = false;
             // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.guna2CirclePictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox3.Image = global::GymMangementSystem.Properties.Resources.Money;
-            this.guna2CirclePictureBox3.ImageRotate = 0F;
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(189, 312);
-            this.guna2CirclePictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(39, 40);
-            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox3.TabIndex = 128;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // lblSubscriptionID
-            // 
-            this.lblSubscriptionID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblSubscriptionID.AutoSize = true;
-            this.lblSubscriptionID.BackColor = System.Drawing.Color.Transparent;
-            this.lblSubscriptionID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
-            this.lblSubscriptionID.ForeColor = System.Drawing.Color.Black;
-            this.lblSubscriptionID.Location = new System.Drawing.Point(230, 196);
-            this.lblSubscriptionID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblSubscriptionID.Name = "lblSubscriptionID";
-            this.lblSubscriptionID.Size = new System.Drawing.Size(66, 22);
-            this.lblSubscriptionID.TabIndex = 129;
-            this.lblSubscriptionID.Text = "[????]";
-            // 
-            // lblPaymentAmount
-            // 
-            this.lblPaymentAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblPaymentAmount.AutoSize = true;
-            this.lblPaymentAmount.BackColor = System.Drawing.Color.Transparent;
-            this.lblPaymentAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold);
-            this.lblPaymentAmount.ForeColor = System.Drawing.Color.Black;
-            this.lblPaymentAmount.Location = new System.Drawing.Point(232, 239);
-            this.lblPaymentAmount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblPaymentAmount.Name = "lblPaymentAmount";
-            this.lblPaymentAmount.Size = new System.Drawing.Size(66, 22);
-            this.lblPaymentAmount.TabIndex = 130;
-            this.lblPaymentAmount.Text = "[????]";
-            // 
             // ctrlPaymentDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.guna2GroupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ctrlPaymentDetails";
             this.Size = new System.Drawing.Size(1171, 360);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
@@ -604,7 +605,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }

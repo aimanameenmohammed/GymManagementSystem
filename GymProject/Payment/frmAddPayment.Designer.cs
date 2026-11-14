@@ -43,21 +43,21 @@
             this.cmPaymentMethod = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.txtPaymentAmount = new GymMangementSystem.MyTextBox();
             this.ctrlPaymentDetails1 = new GymMangementSystem.ctrlPaymentDetails();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.tcPayment.SuspendLayout();
             this.tpMemberInfo.SuspendLayout();
             this.tpPaymentInfo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -172,11 +172,11 @@
             // 
             // tpPaymentInfo
             // 
+            this.tpPaymentInfo.Controls.Add(this.guna2CirclePictureBox2);
             this.tpPaymentInfo.Controls.Add(this.btnBack);
             this.tpPaymentInfo.Controls.Add(this.cmPaymentMethod);
             this.tpPaymentInfo.Controls.Add(this.label2);
             this.tpPaymentInfo.Controls.Add(this.label1);
-            this.tpPaymentInfo.Controls.Add(this.guna2CirclePictureBox1);
             this.tpPaymentInfo.Controls.Add(this.guna2CirclePictureBox6);
             this.tpPaymentInfo.Controls.Add(this.txtPaymentAmount);
             this.tpPaymentInfo.Controls.Add(this.ctrlPaymentDetails1);
@@ -220,7 +220,7 @@
             // cmPaymentMethod
             // 
             this.cmPaymentMethod.BackColor = System.Drawing.Color.Transparent;
-            this.cmPaymentMethod.BorderRadius = 7;
+            this.cmPaymentMethod.BorderRadius = 5;
             this.cmPaymentMethod.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmPaymentMethod.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmPaymentMethod.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -231,66 +231,52 @@
             this.cmPaymentMethod.Items.AddRange(new object[] {
             "Cash",
             "Card"});
-            this.cmPaymentMethod.Location = new System.Drawing.Point(852, 382);
+            this.cmPaymentMethod.Location = new System.Drawing.Point(835, 387);
             this.cmPaymentMethod.Margin = new System.Windows.Forms.Padding(4);
             this.cmPaymentMethod.Name = "cmPaymentMethod";
-            this.cmPaymentMethod.Size = new System.Drawing.Size(351, 36);
+            this.cmPaymentMethod.Size = new System.Drawing.Size(307, 36);
             this.cmPaymentMethod.StartIndex = 0;
             this.cmPaymentMethod.TabIndex = 104;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(684, 384);
+            this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(599, 388);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 28);
+            this.label2.Size = new System.Drawing.Size(188, 27);
             this.label2.TabIndex = 102;
             this.label2.Text = "Payment Method :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 380);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(8, 389);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(172, 28);
+            this.label1.Size = new System.Drawing.Size(189, 27);
             this.label1.TabIndex = 99;
             this.label1.Text = "Payment Amount :";
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.Image = global::GymMangementSystem.Properties.Resources.Money;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(620, 393);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(56, 60);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 103;
-            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // guna2CirclePictureBox6
             // 
             this.guna2CirclePictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox6.Image = global::GymMangementSystem.Properties.Resources.Money;
             this.guna2CirclePictureBox6.ImageRotate = 0F;
-            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(-4, 384);
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(195, 383);
             this.guna2CirclePictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
             this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(56, 60);
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(45, 41);
             this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox6.TabIndex = 101;
             this.guna2CirclePictureBox6.TabStop = false;
             // 
             // txtPaymentAmount
             // 
-            this.txtPaymentAmount.BorderRadius = 7;
+            this.txtPaymentAmount.BorderRadius = 5;
             this.txtPaymentAmount.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPaymentAmount.DefaultText = "";
             this.txtPaymentAmount.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -304,12 +290,12 @@
             this.txtPaymentAmount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPaymentAmount.InputType = GymMangementSystem.MyTextBox.TextType.DecimalNumbers;
             this.txtPaymentAmount.IsRequired = true;
-            this.txtPaymentAmount.Location = new System.Drawing.Point(248, 376);
+            this.txtPaymentAmount.Location = new System.Drawing.Point(245, 385);
             this.txtPaymentAmount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPaymentAmount.Name = "txtPaymentAmount";
             this.txtPaymentAmount.PlaceholderText = "";
             this.txtPaymentAmount.SelectedText = "";
-            this.txtPaymentAmount.Size = new System.Drawing.Size(374, 42);
+            this.txtPaymentAmount.Size = new System.Drawing.Size(317, 40);
             this.txtPaymentAmount.TabIndex = 107;
             this.txtPaymentAmount.Validating += new System.ComponentModel.CancelEventHandler(this.txtPaymentAmount_Validating);
             // 
@@ -382,6 +368,20 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox2.Image = global::GymMangementSystem.Properties.Resources.Money;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(784, 382);
+            this.guna2CirclePictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(45, 41);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox2.TabIndex = 109;
+            this.guna2CirclePictureBox2.TabStop = false;
+            // 
             // frmAddPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -405,9 +405,9 @@
             this.tpMemberInfo.ResumeLayout(false);
             this.tpPaymentInfo.ResumeLayout(false);
             this.tpPaymentInfo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -427,12 +427,12 @@
         private Guna.UI2.WinForms.Guna2Button btnClose;
         private ctrlMemberBasicDetailsWithFilter ctrlMemberDetailsWithFiltering1;
         private Guna.UI2.WinForms.Guna2ComboBox cmPaymentMethod;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox6;
         private System.Windows.Forms.Label label1;
         private MyTextBox txtPaymentAmount;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private Guna.UI2.WinForms.Guna2Button btnBack;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
     }
 }

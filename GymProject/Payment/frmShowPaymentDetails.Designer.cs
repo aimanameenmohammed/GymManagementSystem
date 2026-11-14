@@ -50,31 +50,34 @@
             this.btnClose.Image = global::GymMangementSystem.Properties.Resources.Close_32;
             this.btnClose.ImageOffset = new System.Drawing.Point(-10, 1);
             this.btnClose.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClose.Location = new System.Drawing.Point(594, 281);
+            this.btnClose.Location = new System.Drawing.Point(973, 374);
             this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(117, 30);
+            this.btnClose.Size = new System.Drawing.Size(200, 43);
             this.btnClose.TabIndex = 146;
             this.btnClose.Text = "Close";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // ctrlPaymentDetails1
             // 
             this.ctrlPaymentDetails1.BackColor = System.Drawing.Color.White;
-            this.ctrlPaymentDetails1.Location = new System.Drawing.Point(1, 1);
+            this.ctrlPaymentDetails1.Location = new System.Drawing.Point(4, 9);
+            this.ctrlPaymentDetails1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.ctrlPaymentDetails1.Name = "ctrlPaymentDetails1";
-            this.ctrlPaymentDetails1.Size = new System.Drawing.Size(718, 276);
+            this.ctrlPaymentDetails1.Size = new System.Drawing.Size(1172, 365);
             this.ctrlPaymentDetails1.SubscriptionID = 0;
             this.ctrlPaymentDetails1.TabIndex = 0;
             // 
             // frmShowPaymentDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(722, 315);
+            this.ClientSize = new System.Drawing.Size(1177, 423);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.ctrlPaymentDetails1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmShowPaymentDetails";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
