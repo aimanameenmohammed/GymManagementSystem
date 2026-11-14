@@ -1071,5 +1071,8 @@
   <ItemGroup>
     <None Include="Resources\terminate_employee_32x32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_00000000aa248211a4d0217824e5ad4d.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

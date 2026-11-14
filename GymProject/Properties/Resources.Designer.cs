@@ -613,6 +613,16 @@ namespace GymMangementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap file_00000000aa248211a4d0217824e5ad4d {
+            get {
+                object obj = ResourceManager.GetObject("file_00000000aa248211a4d0217824e5ad4d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap freeze_icon_32x32 {
             get {
                 object obj = ResourceManager.GetObject("freeze_icon_32x32", resourceCulture);
