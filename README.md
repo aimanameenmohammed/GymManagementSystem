@@ -1,69 +1,30 @@
-# Gym Management System
+## Project Overview
 
-## About the Project
+Gym Management System (GMS) is a Windows desktop application designed to organize and manage the essential operations of a gym through a centralized system.
 
-A training project focused on building a Gym Management System while practicing software development, teamwork, application architecture, and database management.
+The system provides dedicated modules for managing people, users, members, trainers, employees, classes, payments, and subscriptions, helping streamline daily administrative operations.
 
-## Team
+The application is built using C# and .NET Framework, following a Three-Tier Architecture that separates the Presentation Layer, Business Logic Layer, and Data Access Layer. It uses ADO.NET for database connectivity and Microsoft SQL Server for data storage.
 
-- Ashraf Alariqi — Team Leader
-- Mohammed Noman — Developer
-- Aiman Ameen — Developer
+This project was developed collaboratively by a team of three developers, focusing on practical software development, database design, object-oriented programming, layered architecture, and collaborative development using Git and GitHub.
 
-## Technology Stack
+flowchart TB
+    subgraph PL["Presentation Layer"]
+        UI["Forms and User Controls"]
+    end
 
-- C#
-- Windows Forms
-- Guna2
-- Object-Oriented Programming (OOP)
-- ADO.NET
-- SQL Server
-- 3-Tier Architecture
-- Git & GitHub
+    subgraph BL["Business Logic Layer"]
+        B["Business Classes"]
+    end
 
-## System Structure
+    subgraph DL["Data Access Layer"]
+        D["Data Access Classes"]
+        CS["Data Access Settings"]
+    end
 
-The system is organized into the following modules:
+    DB[("Microsoft SQL Server")]
 
-- Manage People
-- Manage Users
-- Manage Members
-- Manage Trainers
-- Manage Classes
-- Class Types
-- Manage Payments
-- Manage Employees
-- Membership Actions
-  - Cancellation 
-  - Freeze
-  - Renew
-  - Change 
-
-## Database
-
-The relational database schema has been designed and built from scratch.
-
-## Team Workflow
-
-- Each feature has its own branch.
-- A Pull Request is required for every completed feature.
-- Every Pull Request must be reviewed and verified by two team members before merging.
-- Task distribution will be decided later.
-
-## Project Status
-
-Planning / Development Preparation
-
-## Team Members
-
-### Ashraf Alariqi
-- [LinkedIn](https://www.linkedin.com/in/اشرف-العريقي-48636435a)
-- [GitHub](https://github.com/alryqyashrf979-ux)
-
-### Mohammed Noman
-- [LinkedIn](https://www.linkedin.com/in/dev-moh-noman)
-- [GitHub](https://github.com/mohammedabdullahnomanqaid-maker)
-
-### Aiman Ameen
-- [LinkedIn](https://www.linkedin.com/in/aiman-ameen-2548673a8)
-- [GitHub](https://github.com/aimanameenmohammed)
+    UI -->|"Business Operations"| B
+    B -->|"Data Operations"| D
+    D -->|"SQL Queries"| DB
+    D --> CS
