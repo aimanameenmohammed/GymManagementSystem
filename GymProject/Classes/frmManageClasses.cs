@@ -41,6 +41,10 @@ namespace GymMangementSystem
             txtSearch.Visible = (!dtpTime.Visible && !cbIsActive.Visible && cbValue.Text != "None");
             txtSearch.Clear();
             txtSearch.Focus();
+
+
+            _dtClasses.DefaultView.RowFilter = "";
+            lblRecord.Text = dgvShowClasses.Rows.Count.ToString();
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)

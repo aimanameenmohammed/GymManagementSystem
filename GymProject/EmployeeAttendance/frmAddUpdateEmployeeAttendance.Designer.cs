@@ -194,7 +194,7 @@
             // 
             this.pnlCheckOut.Controls.Add(this.rdNoCheckOut);
             this.pnlCheckOut.Controls.Add(this.rdYesCheckOut);
-            this.pnlCheckOut.Location = new System.Drawing.Point(558, 89);
+            this.pnlCheckOut.Location = new System.Drawing.Point(589, 89);
             this.pnlCheckOut.Name = "pnlCheckOut";
             this.pnlCheckOut.Size = new System.Drawing.Size(140, 35);
             this.pnlCheckOut.TabIndex = 175;
@@ -227,7 +227,7 @@
             // 
             this.pnlCheckin.Controls.Add(this.rdNoChechIn);
             this.pnlCheckin.Controls.Add(this.rdYesChechIn);
-            this.pnlCheckin.Location = new System.Drawing.Point(558, 47);
+            this.pnlCheckin.Location = new System.Drawing.Point(589, 47);
             this.pnlCheckin.Name = "pnlCheckin";
             this.pnlCheckin.Size = new System.Drawing.Size(140, 35);
             this.pnlCheckin.TabIndex = 150;
@@ -260,7 +260,7 @@
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox6.Image = global::GymMangementSystem.Properties.Resources.Active;
-            this.pictureBox6.Location = new System.Drawing.Point(517, 92);
+            this.pictureBox6.Location = new System.Drawing.Point(548, 92);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(34, 32);
@@ -272,7 +272,7 @@
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox4.Image = global::GymMangementSystem.Properties.Resources.Active;
-            this.pictureBox4.Location = new System.Drawing.Point(517, 47);
+            this.pictureBox4.Location = new System.Drawing.Point(548, 47);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(34, 32);
@@ -339,7 +339,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(384, 100);
+            this.label4.Location = new System.Drawing.Point(415, 100);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(127, 22);
@@ -350,7 +350,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(396, 53);
+            this.label3.Location = new System.Drawing.Point(427, 53);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 22);
