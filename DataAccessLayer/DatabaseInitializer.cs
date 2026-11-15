@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
@@ -14,8 +15,8 @@ namespace DVLDDataAccessLayer
 
         public static void InitializeDatabase()
         {
-            string connectionString =
-                "Server=.;Database=master;User Id=sa;Password=123456;";
+            string connectionString = ConfigurationManager.ConnectionStrings["MasterConn"].ConnectionString;
+
 
             string databaseName = "GymManagementSystem";
 
