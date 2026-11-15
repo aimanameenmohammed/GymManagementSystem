@@ -63,6 +63,7 @@
     <Compile Include="clsTitlesData.cs" />
     <Compile Include="clsUsersData.cs" />
     <Compile Include="DataAccessSettings.cs" />
+    <Compile Include="DatabaseInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

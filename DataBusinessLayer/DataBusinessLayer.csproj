@@ -62,6 +62,7 @@
     <Compile Include="clsSubscriptionPlans.cs" />
     <Compile Include="clsTitles.cs" />
     <Compile Include="clsUsers.cs" />
+    <Compile Include="clsGymDatabaseManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

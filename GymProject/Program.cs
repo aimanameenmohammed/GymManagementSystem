@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GymDatabaseManager;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace GymMangementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            clsGymDatabaseManager.InitializeDatabase();
             Application.Run(new frmLogin() );
         }
     }
